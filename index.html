@@ -1,17 +1,256 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'yuq2bzu',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@maxakohler">
+    <meta name="twitter:creator" content="@maxakohler">
+    <meta name="twitter:title" content="Mapping 164 Years of Weather">
+    <meta name="twitter:description" content="The Met Office is the UK's national weather service. Established in 1853, it has been conducting weather science and providing forecasts for over 160 years. Among other datasets, it publishes temperature records for">
+    <meta name="twitter:image" content="">
 </head>
+
 <body>
-    <ul>
-        <li><a href="map.html">Map</a></li>
-        <li><a href="oxford-line.html">Station trend</a></li>
-        <li><a href="steps.html">Animation (Monthly)</a></li>
-        <li><a href="yearly.html">Animation (Yearly)</a></li>
-        <li><a href="gradient.html">Gradients</a></li>
-        <li><a href="gradient-stacked.html">Gradients (Stacked)</a></li>
-        <li><a href="table.html">Significant Events</a></li>
-    </ul>
+    <section class="intro">
+        <h1>Mappping 164 Years of Weather</h1>
+        <p>The Met Office is the UK's national weather service. Established in 1853, it has been conducting weather science
+            and providing forecasts for over 160 years. Among other datasets, it publishes temperature records for 37 meterological
+            sites across the UK going back to the 19th century.
+        </p>
+        <p>Mapping this data reveals a granular image of how the UK's climate has changed over time.</p>
+        <div class="share">
+            <a href="#1" class="btn">
+                <span>Tweet</span>
+                <svg viewBox="0 0 24 24">
+                    <path fill="#000000" d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z"
+                    />
+                </svg>
+            </a>
+
+        </div>
+    </section>
+    <div class="key">
+        <svg id="key-svg"></svg>
+        <p>Observation sites are ordered by latitude, north to south.</p>
+    </div>
+    <div class="chart">
+        <p class="label climate-change-label">
+            The four warmest years on record all occured within the last 100 years, each being warmer on average than the previous one.<sup>2</sup>
+        </p>
+        <svg id='gradient-chart'>
+        </svg>
+    </div>
+    <div class="sources">
+        <h3>Sources:</h3>
+        <ol>
+            <li><a href="https://data.gov.uk/dataset/historic-monthly-meteorological-station-data">Historical monthly data for meteorological stations</a>
+                <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"> (OGL)</a></li>
+            <li><a href="http://www.metoffice.gov.uk/hadobs/hadcet/">Hadley Centre Central England Temperature Record</a>
+                <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"> (OGL)</a>
+            </li>
+        </ol>
+        <p>Built by Max Kohler (2017)</p>
+    </div>
+
+    <script src="./bower_components/moment/min/moment.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+        var getArrMean = function (arr) {
+            var sum = arr.reduce((a, b) => a + b, 0);
+            return sum / (arr.length)
+        }
+        var margin = { top: 150, right: 20, bottom: 40, left: 30 },
+            width = window.innerWidth * .95 - margin.left - margin.right,
+            height = 1300 - margin.top - margin.bottom;
+
+        var svg = d3.select('svg#gradient-chart');
+        svg.attr('width', width + margin.left + margin.right)
+        svg.attr('height', height + margin.bottom + margin.top)
+        var wrap = svg.append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+            .attr('id', 'wrap')
+
+        var parseTime = d3.timeParse("%Y-%m");
+        var dateRange = [new Date(1840, 0), Date.now()];
+        var y = d3.scaleLinear()
+            .rangeRound([height, 0]);
+
+        var colors = ["#6CC0F0", "#FFD240"];
+        var color = d3.scaleLinear()
+            .range(colors);
+
+        var drawGradient = function (file) {
+            d3.json(file, function (raw) {
+                var x = d3.scaleTime()
+                    .rangeRound([0, width])
+                    .domain(dateRange);
+
+                y.domain([-8, 25]);
+                color.domain([8, 13])
+
+                raw.sort(function (x, y) {
+                    return d3.descending(x.lat, y.lat);
+                })
+
+                var stations = wrap.selectAll('g')
+                    .data(raw)
+                    .enter().append('g')
+                    .attr('transform', function (d, i) { return 'translate(0,' + 32 * i + ')' })
+                    .attr('class', 'station')
+
+                stations.append('text')
+                    .text(function (d) { return d.name })
+                    .attr('x', -10)
+                    .attr('y', 20)
+                    .attr('class', 'gradient-station')
+                console.log(raw.length)
+                var barWidth = x(new Date(2000, 0)) - x(new Date(1999, 0));
+                var means = stations.selectAll('rect')
+                    .data(function (d, i) { return d.yearlyMeans })
+                    .enter().append('rect')
+                    //                    .attr("width", function (d) { return window.innerWidth / 180 })
+                    .attr("width", barWidth)
+                    .attr("height", 30)
+                    .attr("x", function (d) { return x(parseTime(d.date)) })
+                    .attr("y", 0)
+                    .attr("fill", function (d) { return color(d.value) })
+
+                means.filter(function (d) { return d.value == null; }).remove()
+
+
+                var hottestYears = [1949, 1990, 2006, 2014];
+                //               var otherYears = [1894, 1946, 1963];
+                var otherYears = [];
+                var records = wrap.append('g').attr('class', 'records');
+
+                var hottestYearLines = records.selectAll('g.hottest')
+                    .data(hottestYears)
+                    .enter().append('g')
+                    .attr('class', 'yearMarker hottest')
+
+                hottestYearLines.append('path')
+                    .attr('d', function (d) {
+                        let xCoordinate = x(new Date(d, 0));
+                        return 'M' + xCoordinate + ',-20 L' + xCoordinate + ',-50 L' + (width - 300) + ',-80'
+                    })
+                hottestYearLines.append('circle')
+                    .attr('r', 3)
+                    .attr('cx', width - 300)
+                    .attr('cy', -80)
+
+
+                var otherYearLines = records.selectAll('g.misc')
+                    .data(otherYears)
+                    .enter().append('g')
+                    .attr('class', 'yearMarker misc')
+
+                otherYearLines.append('path')
+                    .attr('d', function (d) {
+                        let xCoordinate = x(new Date(d, 0));
+                        return 'M' + xCoordinate + ',-20 L' + xCoordinate + ',-80';
+                    })
+
+                otherYearLines.append('circle')
+                    .attr('r', 3)
+                    .attr('cx', function (d) { return x(new Date(d, 0)) })
+                    .attr('cy', -80)
+
+                var ticks = x.ticks()
+                ticks.push(Date.now());
+                var xAxis = d3.axisTop(x).tickValues(ticks).tickFormat(d3.timeFormat('%Y'));
+                var xAxisBottom = d3.axisBottom(x).tickValues(ticks).tickFormat(d3.timeFormat('%Y'));
+
+                wrap.append("g")
+                    .attr("transform", "translate(0," + -20 + ")")
+                    .call(xAxis)
+                    .selectAll(".tick line")
+                //           .remove() //remove line
+                wrap.append("g")
+                    .attr("transform", "translate(0," + (height + 20) + ")")
+                    .call(xAxisBottom)
+                    .selectAll(".tick line")
+                //           .remove() //remove line
+
+                var indicator = wrap.append('line')
+                    .attr('x1', 200)
+                    .attr('x2', 200)
+                    .attr('y1', -18)
+                    .attr('y2', height + 20)
+                    .attr('stroke', 'black')
+                    .attr('stroke-dasharray', '5 5')
+
+                var currentYear = wrap.append('text')
+                    .attr('x', 0)
+                    .attr('y', height)
+                    .text('')
+
+                var key = d3.select('#key-svg')
+                    .attr('height', '80px')
+                    .attr('width', '400px')
+
+                var gradient = key.append("defs")
+                    .append("linearGradient")
+                    .attr("id", "gradient")
+                    .attr("spreadMethod", "pad");
+
+                gradient.append("stop")
+                    .attr("offset", "0%")
+                    .attr("stop-color", colors[0])
+                    .attr("stop-opacity", 1);
+
+                gradient.append("stop")
+                    .attr("offset", "100%")
+                    .attr("stop-color", colors[1])
+                    .attr("stop-opacity", 1);
+
+                key.append('rect')
+                    .attr('fill', 'url(#gradient)')
+                    .attr('width', '180px')
+                    .attr('height', '20px')
+                    .attr('y', 30)
+
+                key.append('text')
+                    .attr('y', 24)
+                    .attr('class', 'key-label')
+                    .text('Annual mean temperature')
+
+                key.append('text')
+                    .attr('y', 64)
+                    .attr('class', 'small')
+                    .text('8°C')
+
+                key.append('text')
+                    .attr('y', 64)
+                    .attr('x', 150)
+                    .attr('class', 'small')
+                    .text('25°C')
+
+                svg.on('mousemove', function () {
+                    indicator.attr('x1', function () { return d3.mouse(this)[0] })
+                    indicator.attr('x2', function () { return d3.mouse(this)[0] })
+                    currentYear.attr('x', function () { return d3.mouse(this)[0] - 60 })
+                    currentYear.attr('y', function () { return d3.mouse(this)[1] + 10 })
+                    var m = moment(x.invert(d3.mouse(this)[0] - margin.left + 2))
+                    currentYear.text(m.format('YYYY'))
+                })
+            });
+        }
+
+
+
+        drawGradient('./data/allStations.json');
+    </script>
 </body>
+
 </html>
