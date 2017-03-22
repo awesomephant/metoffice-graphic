@@ -1,0 +1,229 @@
+.time-slider {
+    width: 100%;
+    color: red;
+    background: red;
+}
+
+svg {
+}
+svg text {
+    font-family: Roboto, 'lucida console';
+    &.small {
+        font-size: 13px;
+    }
+}
+
+.key {
+    padding: 0 calc(30px + 1rem);
+    margin-bottom: -4rem;
+    p {
+        color: $gray;
+        max-width: 15rem;
+        font-size: .9rem;
+    }
+    .key-label {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+}
+
+.yearMarker {
+    circle {
+        fill: $gray-dark;
+    }
+    path {
+        stroke: $gray-dark;
+        stroke-width: 1px;
+        fill: none;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+
+.site-footer {
+    padding: 5%;
+    color: $gray;
+}
+
+.intro {
+    padding: 5%;
+    max-width: 50rem;
+    h1 {
+        font-weight: 100;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.05rem;
+        line-height: 1.43;
+    }
+ }
+
+ .sources {
+     color: $gray;
+     padding: calc(1rem + 20px);
+     h3 {
+         font-weight: bold;
+         font-size: .9rem;
+         letter-spacing: .05em;
+         text-transform: uppercase;
+     }
+     ol {
+         margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+     a {
+         text-decoration: none;
+         font-size: .9rem;
+         color: $gray;
+     }
+ }
+
+.share {
+    padding-top: 1rem;
+}
+
+ .btn {
+     display: inline-flex;
+     align-items: center;
+     flex-flow: row-reverse;
+     padding: .5rem 1rem;
+     font-size: .9rem;
+     border: 1px solid $gray;
+     color: darken($black, 0);
+     margin-right: .5rem;
+     border-radius: 3px;
+     text-decoration: none;
+     &:hover, &:focus {
+         background: lighten($gray, 14);
+     }
+     span {
+         margin-left: .5rem;
+     }
+     svg {
+         display: block;
+         width: 1.2rem;
+         path {
+             fill: darken($gray, 14);
+         }
+     }
+ }
+
+.oceans text {
+    fill: rgba(0,0,0,.3);
+    font-size: .8rem;
+    font-family: Roboto Mono;
+}
+.section-map {
+    width: 100%;
+}
+
+.map {
+    .land {
+        fill: darken($teal-light, 5);
+    }
+    .graticule {
+        fill: none;
+        stroke: rgba($black, .3);
+        stroke-width: 0px;
+        stroke-dasharray: 5 5;
+    }
+    circle {
+        fill: $blue;
+        //fill: darken($blue, 10);
+        stroke: transparent;
+        stroke-width: 25px;
+    }
+}
+
+.map-tooltip {
+    visibility: hidden;
+    z-index: 100;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: .8rem;
+    border-radius: 1px;
+//    border: 1px solid darken($teal-light, 35);
+    border: 1px solid $black;
+    [data-active='true'] &{
+        visibility: visible;
+    }
+    &:after {
+        content: '';
+        display: block;
+        background: white;
+        border-right: 1px solid $black;
+        border-bottom: 1px solid $black;
+        border-radius: 2px;
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        bottom: -7px;
+        left: calc(50% - 4px);
+        transform: rotate(45deg);
+    }
+
+    .station {
+        margin-bottom: .25rem;
+    }
+
+    .station-name {
+        font-weight: bold;
+        display: block;
+        margin-bottom: -.4rem;
+    }
+    .station-position {
+        color: rgba($black, .4);
+        font-weight: bold;
+        padding: 0;
+        font-size: .7rem;
+        margin-right: -.8em;
+    }
+}
+
+[data-hover=true]{
+    stroke: black;
+}
+
+.gradient-station {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.tick {
+    line {
+        stroke: gray;
+    }
+    text {
+        font-weight: normal;
+        fill: gray;
+        font-size: 11px;
+    }
+}
+
+.domain {
+    stroke: gray;
+}
+
+.indicator {
+    stroke: red;
+    stroke-width: 2px;
+}
+
+.chart {
+    padding: 1rem;
+}
+
+.climate-change-label {
+    position: absolute;
+    right: 4rem;
+    max-width: 18rem;
+    font-size: .9rem;
+}

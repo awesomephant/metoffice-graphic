@@ -1,0 +1,41 @@
+Station Name,Lat,Long,Metres AMSL,Earliest Record,URL,Notes
+Aberporth,52.139,-4.57,133,1941,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/aberporthdata.txt,
+Armagh,54.352,-6.65,62,1853,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/armaghdata.txt,
+Ballypatrick Forest,55.181,-6.15,156,1961,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/ballypatrickdata.txt,
+Bradford,53.813,-1.77,134,1908,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/bradforddata.txt,
+Braemar,57.006,-3.40,327,1959,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/braemardata.txt,"Location 315200E 791400N, 339 metres amsl (1959 to Apr 2005)"
+Camborne,50.218,-5.33,87,1978,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cambornedata.txt,
+Cambridge NIAB,52.245,0.10,26,1959,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cambridgedata.txt,
+Cardiff Bute Park,51.488,-3.19,9,1977,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cardiffdata.txt,
+Chivenor,51.089,-4.15,6,1951,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/chivenordata.txt,
+Cwmystwyth,52.358,-3.80,301,1959,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/cwmystwythdata.txt,
+Dunstaffnage,56.451,-5.44,3,1971,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/dunstaffnagedata.txt,
+Durham,54.768,-1.59,102,1880,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/durhamdata.txt,
+Eastbourne,50.762,0.29,7,1959,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/eastbournedata.txt,
+Eskdalemuir,55.311,-3.21,242,1911,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/eskdalemuirdata.txt,
+Heathrow Airport,51.479,-0.45,25,1948,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/heathrowdata.txt,
+Hurn,50.779,-1.84,10,1957,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/hurndata.txt,
+Lerwick,60.139,-1.18,82,1930,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/lerwickdata.txt,
+Leuchars,56.377,-2.86,10,1957,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/leucharsdata.txt,
+Lowestoft,52.483,1.73,18,1914,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/lowestoftdata.txt,Location 654300E 294600N 25m amsl to July 2007
+Manston,51.346,1.34,49,1934,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/manstondata.txt,
+Nairn,57.593,-3.82,23,1931,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/nairndata.txt,There is a site change in 1998: Location before 1998 286900E 856800N 8m amsl
+Newton Rigg,54.67,-2.79,169,1959,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/newtonriggdata.txt,
+Oxford,51.761,-1.26,63,1853,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/oxforddata.txt,
+Paisley,55.846,-4.43,32,1953,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/paisleydata.txt,
+Ringway,53.356,-2.28,69,1946,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/ringwaydata.txt,
+Ross-on-Wye,51.911,-2.58,67,1930,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/rossonwyedata.txt,
+Shawbury,52.794,-2.66,72,1946,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/shawburydata.txt,
+Sheffield,53.381,-1.49,131,1883,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/sheffielddata.txt,
+Southamption,50.898,-1.41,3,1855,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/southamptondata.txt,"Location 442000E 112500N, 20 metres amsl (1855 to 1969) & 441600E 111200N, Lat 50.898 Lon -1.408, 3 metres amsl (1970 to 2000). Site closed."
+Stornoway Airport,58.214,-6.32,15,1873,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/stornowaydata.txt,
+Sutton Bonington,52.833,-1.25,48,1959,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/suttonboningtondata.txt,
+Tiree,56.5,-6.88,12,1928,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/tireedata.txt,
+Valley,53.252,-4.54,10,1930,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/valleydata.txt,
+Waddington,53.175,-0.52,68,1947,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/waddingtondata.txt,"Whitby Coastguard / Whitby(from 2000 and $sunshine), Location until Dec 1999 490400E 511400N 60m amsl"
+Whitby,54.481,-0.62,41,1961,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/whitbydata.txt,
+Wick Airport,58.454,-3.09,36,1914,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/wickairportdata.txt,
+Yeovilton,51.006,-2.64,20,1964,http://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/yeoviltondata.txt,
+,,,,,,
+"Estimated data is marked with a * after the value. Missing data (more than 2 days missing in month) is marked by  ---.
+Sunshine data taken from an automatic Kipp & Zonen sensor marked with a #, otherwise sunshine data taken from a Campbell Stokes recorder.",,,,"Monthly Historical information for 37 UK Meteorological Stations. Station data files are updated on a rolling monthly basis, around 10 days after the end of the month. Data are indicated as provisional until the full network quality control has been carried out. Source: https://data.gov.uk/dataset/historic-monthly-meteorological-station-data",,

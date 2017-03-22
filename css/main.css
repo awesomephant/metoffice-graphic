@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,700");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Roboto; }
+
+.time-slider {
+  width: 100%;
+  color: red;
+  background: red; }
+
+svg text {
+  font-family: Roboto, 'lucida console'; }
+  svg text.small {
+    font-size: 13px; }
+
+.key {
+  padding: 0 calc(30px + 1rem);
+  margin-bottom: -4rem; }
+  .key p {
+    color: #c8cdcd;
+    max-width: 15rem;
+    font-size: .9rem; }
+  .key .key-label {
+    font-size: .9rem;
+    font-weight: 500; }
+
+.yearMarker circle {
+  fill: #a3abab; }
+.yearMarker path {
+  stroke: #a3abab;
+  stroke-width: 1px;
+  fill: none; }
+
+.hidden {
+  display: none; }
+
+.site-footer {
+  padding: 5%;
+  color: #c8cdcd; }
+
+.intro {
+  padding: 5%;
+  max-width: 50rem; }
+  .intro h1 {
+    font-weight: 100;
+    margin-bottom: 1rem;
+    font-size: 2rem; }
+  .intro p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.05rem;
+    line-height: 1.43; }
+
+.sources {
+  color: #c8cdcd;
+  padding: calc(1rem + 20px); }
+  .sources h3 {
+    font-weight: bold;
+    font-size: .9rem;
+    letter-spacing: .05em;
+    text-transform: uppercase; }
+  .sources ol {
+    margin-bottom: 1rem;
+    margin-left: 1rem; }
+  .sources a {
+    text-decoration: none;
+    font-size: .9rem;
+    color: #c8cdcd; }
+
+.share {
+  padding-top: 1rem; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  flex-flow: row-reverse;
+  padding: .5rem 1rem;
+  font-size: .9rem;
+  border: 1px solid #c8cdcd;
+  color: #323232;
+  margin-right: .5rem;
+  border-radius: 3px;
+  text-decoration: none; }
+  .btn:hover, .btn:focus {
+    background: #edefef; }
+  .btn span {
+    margin-left: .5rem; }
+  .btn svg {
+    display: block;
+    width: 1.2rem; }
+    .btn svg path {
+      fill: #a3abab; }
+
+.oceans text {
+  fill: rgba(0, 0, 0, 0.3);
+  font-size: .8rem;
+  font-family: Roboto Mono; }
+
+.section-map {
+  width: 100%; }
+
+.map .land {
+  fill: #d7dbda; }
+.map .graticule {
+  fill: none;
+  stroke: rgba(50, 50, 50, 0.3);
+  stroke-width: 0px;
+  stroke-dasharray: 5 5; }
+.map circle {
+  fill: #54A3FF;
+  stroke: transparent;
+  stroke-width: 25px; }
+
+.map-tooltip {
+  visibility: hidden;
+  z-index: 100;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: .8rem;
+  border-radius: 1px;
+  border: 1px solid #323232; }
+  [data-active='true'] .map-tooltip {
+    visibility: visible; }
+  .map-tooltip:after {
+    content: '';
+    display: block;
+    background: white;
+    border-right: 1px solid #323232;
+    border-bottom: 1px solid #323232;
+    border-radius: 2px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    bottom: -7px;
+    left: calc(50% - 4px);
+    transform: rotate(45deg); }
+  .map-tooltip .station {
+    margin-bottom: .25rem; }
+  .map-tooltip .station-name {
+    font-weight: bold;
+    display: block;
+    margin-bottom: -.4rem; }
+  .map-tooltip .station-position {
+    color: rgba(50, 50, 50, 0.4);
+    font-weight: bold;
+    padding: 0;
+    font-size: .7rem;
+    margin-right: -.8em; }
+
+[data-hover=true] {
+  stroke: black; }
+
+.gradient-station {
+  font-size: 12px;
+  text-transform: capitalize; }
+
+.tick line {
+  stroke: gray; }
+.tick text {
+  font-weight: normal;
+  fill: gray;
+  font-size: 11px; }
+
+.domain {
+  stroke: gray; }
+
+.indicator {
+  stroke: red;
+  stroke-width: 2px; }
+
+.chart {
+  padding: 1rem; }
+
+.climate-change-label {
+  position: absolute;
+  right: 4rem;
+  max-width: 18rem;
+  font-size: .9rem; }
+
+table {
+  border-collapse: collapse;
+  font-size: .9rem; }
+
+thead {
+  background: #f9f9f9;
+  font-weight: bold; }
+
+tr {
+  border-bottom: 1px solid #333333; }
+
+.type {
+  text-transform: capitalize; }
+  [data-type='heat'] .type {
+    background: #FF7D63; }
+  [data-type='cold'] .type {
+    background: #8CCBFF; }
+  [data-type='flood'] .type {
+    background: #FFE425; }
+
+td {
+  padding: .7rem;
+  padding-right: 2rem; }
+  td a {
+    color: gray;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

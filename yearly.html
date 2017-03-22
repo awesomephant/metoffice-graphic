@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<h1><span id="yearCount"></span> Years of Weather</h1>
+    <svg width="1200" height="500"></svg>
+    <input class='time-slider' type="range" min='0' max='1000'>
+    <script src="./bower_components/moment/min/moment.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script>
+     
+        var svg = d3.select("svg"),
+            margin = { top: 20, right: 20, bottom: 10, left: 10 },
+            width = +svg.attr("width") - margin.left - margin.right,
+            height = +svg.attr("height") - margin.top - margin.bottom,
+            g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var defaultDate = '1996-00';
+        var stations, dateText;
+        var x = d3.scaleLinear()
+            .rangeRound([20, width]);
+
+        var y = d3.scaleLinear()
+            .rangeRound([height, 0])
+            .domain([-10, 30])
+
+
+        dateText = svg.append('text')
+            .attr('x', width - 100)
+            .attr('y', 30)
+
+
+        var drawGraph = function (error, files) {
+            x.domain([0, files.length])
+            stations = svg.selectAll('g')
+                .data(files)
+                .enter().append('g')
+                .attr('data-name', function (d) { return d.name })
+                .attr('transform', function (d, i) { return 'translate(' + x(i) + ',0)' })
+
+            d3.select('#yearCount')
+                .text(function (d) { return Math.round(files[4].data.length / 12) })
+
+            var lines = stations.selectAll('circle')
+                .data(function (d, i) { return d.yearlyMeans })
+                .enter().append('circle')
+                .attr('cx', 20)
+                .attr('cy', function (d) { return y(d.value) })
+                .attr('r', function (d) {
+                    if (d.value != null && d.date === defaultDate) {
+                        return 5;
+                    } else {
+                        return 0;
+                    }
+                })
+                .attr('fill', 'rgba(0,0,0,.2)')
+
+            stations.append('text')
+                .text(function (d, i) { return d.name })
+                .attr('y', height + 10)
+                .attr('class', 'station-name')
+
+            svg.append("g")
+                .call(d3.axisLeft(y))
+                .attr('transform', 'translate(30, 0)')
+                .select(".domain")
+                .remove();
+        }
+
+        d3.queue()
+            .defer(d3.json, './data/json/aberporth.json')
+            .defer(d3.json, './data/json/armagh.json')
+            .defer(d3.json, './data/json/bradford.json')
+            .defer(d3.json, './data/json/braemar.json')
+            .defer(d3.json, './data/json/oxford.json')
+            .defer(d3.json, './data/json/southampton.json')
+            .defer(d3.json, './data/json/eastbourne.json')
+            .defer(d3.json, './data/json/hurn.json')
+            .defer(d3.json, './data/json/lerwick.json')
+            .defer(d3.json, './data/json/lowestoft.json')
+            .defer(d3.json, './data/json/manston.json')
+            .defer(d3.json, './data/json/nairn.json')
+            .defer(d3.json, './data/json/southampton.json')
+            .defer(d3.json, './data/json/sheffield.json')
+            .awaitAll(drawGraph);
+
+        var setDate = function (date) {
+            defaultDate = date;
+            drawGraph();
+        }
+    </script>
+</body>
+
+</html>

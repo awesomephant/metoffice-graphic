@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div id="map-tooltip" class='map-tooltip'>
+        <div class="station">
+            <span class="station-name"></span>
+            <span class='station-position' id="lat"></span>            <span class='station-position' id="long"></span>
+        </div>
+        <p class="er">Earliest Record: <span id='er-year'></p>
+    </div>
+
+    <section class="section-map cols-2">
+        <svg id='world' class='map' width="" height=""></svg>
+    </section>
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script>
+        document.addEventListener('mousemove', function (e) {
+            var tip = document.getElementById('map-tooltip')
+            var style = 'transform: translate(' + (e.clientX - (tip.offsetWidth / 2)) + 'px,' + (e.clientY -100) + 'px);'
+            tip.setAttribute('style', style)
+        })
+
+        var width = 500,
+            height = 600;
+
+        var svg = d3.select("#world")
+            .attr("width", width)
+            .attr("height", height);
+
+        var projection = d3.geo.albers()
+            .center([0, 55.4])
+            .rotate([4.4, 0])
+            .parallels([50, 60])
+            .scale(2800)
+            .translate([width / 2, height / 2]);
+
+        var graticule = d3.geo.graticule()
+            .step([10, 10])
+
+        d3.json("./data/uk.json", function (error, uk) {
+            if (error) return console.error(error);
+            console.log(uk)
+            var path = d3.geo.path()
+                .projection(projection);
+
+            svg.append("path")
+                .datum(topojson.feature(uk, uk.objects.subunits))
+                .attr("d", path)
+                .attr("class", 'land')
+
+            var grid = svg.append('g').attr('class', 'lines')
+
+            var lines = grid.selectAll('path.graticule')
+                .data([graticule()])
+                .enter().append('path').attr('class', 'graticule')
+                .attr('d', path)
+
+            drawStations()
+        });
+
+        var drawStations = function () {
+            d3.csv("./data/stations.csv", function (data) {
+                var sites = svg.selectAll('.site')
+                    .data(data)
+                    .enter().append('g')
+                    .append('circle')
+                    .attr("cx", function (d) { return projection([d.Long, d.Lat])[0]; })
+                    .attr("cy", function (d) { return projection([d.Long, d.Lat])[1]; })
+                    .attr("r", "5px")
+                    .attr('data-long', function (d) { return d.Long })
+                    .attr('data-lat', function (d) { return d.Lat })
+                    .attr('data-lat', function (d) { return d.Lat })
+                    .attr('data-amsl', function (d) { return d['Metres AMSL'] })
+                    .attr('data-er', function (d) { return d['Earliest Record'] })
+                    .attr('data-name', function (d) { return d['Station Name'] })
+                    .attr('data-notes', function (d) { return d.Notes })
+                    .on('mouseover', function (d) {
+                        d3.select('body').attr('data-active', 'true')
+                        d3.select('#map-tooltip .station-name').text(d['Station Name'])
+                        d3.select('#map-tooltip #er-year').text(d['Earliest Record'])
+                        d3.select('#map-tooltip #lat').text(d.Lat + ',')
+                        d3.select('#map-tooltip #long').text(d.Long)
+                    })
+                    .on('mouseout', function () {
+                        d3.select('body').attr('data-active', 'false')
+                    })
+
+                var oceans = svg.append('g').attr('class', 'oceans')
+
+                oceans.append('text')
+                    .text('North Sea')
+                    .attr('x', function () { return projection([.8, 55])[0] })
+                    .attr('y', function () { return projection([.8, 55])[1] })
+
+                oceans.append('text')
+                    .text('Atlantic Ocean')
+                    .attr('x', function () { return projection([-15, 53])[0] })
+                    .attr('y', function () { return projection([-15, 53])[1] })
+
+            });
+        }
+    </script>
+</body>
+
+</html>

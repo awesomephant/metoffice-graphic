@@ -1,0 +1,135 @@
+{
+    "events": [
+        {
+            "title": "Blizzard of January 1881",
+            "startDate": "1881-01",
+            "endDate": "1881-01",
+            "type": "cold",
+            "deathCount": "100",
+            "economicLoss": "",
+            "longDescription": "On 18 January 1881, a low pressure system rapidly developed in the English Channel. The snowfalls began on the 17th in the southwest and as the system deepened as it moved through the Channel, a gale force easterly developed over southern parts with heavy blizzards and drifting snow. The effect of the blizzard was to paralyse all transport, communication, trade and industries.",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Blizzard_of_January_1881"
+                }
+            ]
+        },
+        {
+            "title": "Winter of 1894–95",
+            "startDate": "1894-12",
+            "endDate": "1895-02",
+            "type": "cold",
+            "deathCount": "0",
+            "economicLoss": "",
+            "longDescription": "The severe winter led to mass unemployment and severe disruptions to shipping on the River Thames, which froze for the last time on record. Because mass political activism had not yet created the welfare state, most workers were left without sustenance and in industrial centres large soup kitchens were widespread[5] to feed these people.",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Winter_of_1894%E2%80%9395_in_the_United_Kingdom"
+                }
+            ]
+        },
+        {
+            "title": "1911 Heat Wave",
+            "startDate": "1911-06",
+            "endDate": "1911-09",
+            "type": "heat",
+            "deathCount": "0",
+            "economicLoss": "",
+            "longDescription": "heat wave blah.",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/1911_United_Kingdom_heat_wave"
+                }
+            ]
+        },
+        {
+            "title": "1928 Thames Flood",
+            "startDate": "1928-01",
+            "endDate": "1928-01",
+            "type": "flood",
+            "deathCount": "0",
+            "economicLoss": "",
+            "longDescription": "heat wave blah.",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/1911_United_Kingdom_heat_wave"
+                }
+            ]
+        },
+        {
+            "title": "Winter of 1946–47",
+            "startDate": "1946-12",
+            "endDate": "1947-03",
+            "type": "cold",
+            "deathCount": "0",
+            "economicLoss": "370000000",
+            "longDescription": "heat wave blah.",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Winter_of_1946%E2%80%9347_in_the_United_Kingdom"
+                }
+            ]
+        },
+        {
+            "title": "Winter of 1962–63",
+            "startDate": "1962-12",
+            "endDate": "1963-03",
+            "type": "cold",
+            "deathCount": "0",
+            "longDescription":"heat wave blah.",
+            "sources":[
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Winter_of_1962%E2%80%9363_in_the_United_Kingdom"
+                }
+            ]
+        },
+        {
+            "title": "1976 Heat Wave",
+            "startDate": "1976-01",
+            "endDate": "1976-10",
+            "type": "heat",
+            "deathCount": "0",
+            "longDescription":"heat wave blah.",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/1976_United_Kingdom_heat_wave"
+                }
+            ]
+        },
+        {
+            "title": "Winter of 1990–91",
+            "startDate": "1990-12",
+            "endDate": "1991-02",
+            "type": "cold",
+            "deathCount": "0",
+            "longDescription":"heat wave blah.",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Winter_of_1990%E2%80%9391_in_Western_Europe"
+                }
+            ]
+        },
+        {
+            "title": "2013 Heatwave",
+            "startDate": "2013-06",
+            "endDate": "2013-09",
+            "type": "heat",
+            "deathCount": "0",
+            "longDescription": "",
+            "sources": [
+                {
+                    "title": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/2013_heatwave_in_Ireland_and_the_United_Kingdom"
+                }
+            ]
+        }
+    ]
+}

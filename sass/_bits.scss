@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,700');
+
+$blue: #54A3FF;
+$yellow: #FFE425;
+$orange: #F29D35;
+$green: #00b347;
+$red: #FF6043;
+$teal: #A7C8C2;
+$teal-light: desaturate(lighten($teal, 18), 18);
+$black: rgb(50,50,50);
+$gray: rgb(200,205,205);
+$gray-dark: darken($gray, 14)

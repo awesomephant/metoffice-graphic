@@ -1,0 +1,5887 @@
+{
+ "name": "ringway",
+ "yearlyMeans": [
+  {
+   "date": "1947-00",
+   "value": null
+  },
+  {
+   "date": "1948-00",
+   "value": null
+  },
+  {
+   "date": "1949-00",
+   "value": null
+  },
+  {
+   "date": "1950-00",
+   "value": 10.622727272727273
+  },
+  {
+   "date": "1951-00",
+   "value": 9.450000000000001
+  },
+  {
+   "date": "1952-00",
+   "value": 9.486363636363635
+  },
+  {
+   "date": "1953-00",
+   "value": 9.354545454545455
+  },
+  {
+   "date": "1954-00",
+   "value": 10.363636363636362
+  },
+  {
+   "date": "1955-00",
+   "value": 9.586363636363636
+  },
+  {
+   "date": "1956-00",
+   "value": 9.763636363636364
+  },
+  {
+   "date": "1957-00",
+   "value": 9.25909090909091
+  },
+  {
+   "date": "1958-00",
+   "value": 10.30909090909091
+  },
+  {
+   "date": "1959-00",
+   "value": 9.859090909090911
+  },
+  {
+   "date": "1960-00",
+   "value": 11.481818181818182
+  },
+  {
+   "date": "1961-00",
+   "value": 10.313636363636364
+  },
+  {
+   "date": "1962-00",
+   "value": 10.363636363636363
+  },
+  {
+   "date": "1963-00",
+   "value": 8.872727272727273
+  },
+  {
+   "date": "1964-00",
+   "value": 9.404545454545454
+  },
+  {
+   "date": "1965-00",
+   "value": 9.831818181818182
+  },
+  {
+   "date": "1966-00",
+   "value": 9.427272727272728
+  },
+  {
+   "date": "1967-00",
+   "value": 9.981818181818182
+  },
+  {
+   "date": "1968-00",
+   "value": 9.968181818181817
+  },
+  {
+   "date": "1969-00",
+   "value": 9.822727272727272
+  },
+  {
+   "date": "1970-00",
+   "value": 9.518181818181818
+  },
+  {
+   "date": "1971-00",
+   "value": 10.136363636363637
+  },
+  {
+   "date": "1972-00",
+   "value": 10.340909090909092
+  },
+  {
+   "date": "1973-00",
+   "value": 9.74090909090909
+  },
+  {
+   "date": "1974-00",
+   "value": 10.136363636363635
+  },
+  {
+   "date": "1975-00",
+   "value": 9.945454545454545
+  },
+  {
+   "date": "1976-00",
+   "value": 10.18636363636364
+  },
+  {
+   "date": "1977-00",
+   "value": 10.422727272727274
+  },
+  {
+   "date": "1978-00",
+   "value": 10.036363636363637
+  },
+  {
+   "date": "1979-00",
+   "value": 9.895454545454548
+  },
+  {
+   "date": "1980-00",
+   "value": 9.57272727272727
+  },
+  {
+   "date": "1981-00",
+   "value": 10.177272727272728
+  },
+  {
+   "date": "1982-00",
+   "value": 9.636363636363637
+  },
+  {
+   "date": "1983-00",
+   "value": 10.57272727272727
+  },
+  {
+   "date": "1984-00",
+   "value": 10.322727272727274
+  },
+  {
+   "date": "1985-00",
+   "value": 10.427272727272724
+  },
+  {
+   "date": "1986-00",
+   "value": 9.736363636363636
+  },
+  {
+   "date": "1987-00",
+   "value": 9.272727272727273
+  },
+  {
+   "date": "1988-00",
+   "value": 9.877272727272727
+  },
+  {
+   "date": "1989-00",
+   "value": 10.077272727272728
+  },
+  {
+   "date": "1990-00",
+   "value": 10.590909090909092
+  },
+  {
+   "date": "1991-00",
+   "value": 10.781818181818181
+  },
+  {
+   "date": "1992-00",
+   "value": 10.200000000000001
+  },
+  {
+   "date": "1993-00",
+   "value": 10.272727272727272
+  },
+  {
+   "date": "1994-00",
+   "value": 9.618181818181819
+  },
+  {
+   "date": "1995-00",
+   "value": 10.422727272727272
+  },
+  {
+   "date": "1996-00",
+   "value": 11.027272727272727
+  },
+  {
+   "date": "1997-00",
+   "value": 9.677272727272728
+  },
+  {
+   "date": "1998-00",
+   "value": 11.254545454545454
+  },
+  {
+   "date": "1999-00",
+   "value": 10.781818181818183
+  },
+  {
+   "date": "2000-00",
+   "value": 11.218181818181817
+  },
+  {
+   "date": "2001-00",
+   "value": 10.804545454545455
+  },
+  {
+   "date": "2002-00",
+   "value": 10.486363636363636
+  },
+  {
+   "date": "2003-00",
+   "value": 11.113636363636365
+  },
+  {
+   "date": "2004-00",
+   "value": 11.113636363636362
+  }
+ ],
+ "data": [
+  {
+   "date": "1946-00",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 33.2
+  },
+  {
+   "date": "1946-01",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 58.2
+  },
+  {
+   "date": "1946-02",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 109.8
+  },
+  {
+   "date": "1946-03",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 136.3
+  },
+  {
+   "date": "1946-04",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 216.1
+  },
+  {
+   "date": "1946-05",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 142.8
+  },
+  {
+   "date": "1946-06",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 162.7
+  },
+  {
+   "date": "1946-07",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 126
+  },
+  {
+   "date": "1946-08",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 89.8
+  },
+  {
+   "date": "1946-09",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 78.3
+  },
+  {
+   "date": "1946-10",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 24.1
+  },
+  {
+   "date": "1946-11",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 27.8
+  },
+  {
+   "date": "1947-00",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 44.3
+  },
+  {
+   "date": "1947-01",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 35.7
+  },
+  {
+   "date": "1947-02",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 64
+  },
+  {
+   "date": "1947-03",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 133.6
+  },
+  {
+   "date": "1947-04",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 182.8
+  },
+  {
+   "date": "1947-05",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 168.7
+  },
+  {
+   "date": "1947-06",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 131.3
+  },
+  {
+   "date": "1947-07",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 258.8
+  },
+  {
+   "date": "1947-08",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 113.2
+  },
+  {
+   "date": "1947-09",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 101.3
+  },
+  {
+   "date": "1947-10",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 65
+  },
+  {
+   "date": "1947-11",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 16.4
+  },
+  {
+   "date": "1948-00",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 36.4
+  },
+  {
+   "date": "1948-01",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 55.5
+  },
+  {
+   "date": "1948-02",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 168.9
+  },
+  {
+   "date": "1948-03",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 163.5
+  },
+  {
+   "date": "1948-04",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 245.3
+  },
+  {
+   "date": "1948-05",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 160.8
+  },
+  {
+   "date": "1948-06",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 169.6
+  },
+  {
+   "date": "1948-07",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 88.8
+  },
+  {
+   "date": "1948-08",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 68.8
+  },
+  {
+   "date": "1948-09",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 85.4
+  },
+  {
+   "date": "1948-10",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 53.5
+  },
+  {
+   "date": "1948-11",
+   "tmax": null,
+   "tmin": null,
+   "af": null,
+   "rain": null,
+   "sunHours": 52.9
+  },
+  {
+   "date": "1949-00",
+   "tmax": 7.9,
+   "tmin": 2,
+   "af": 6,
+   "rain": null,
+   "sunHours": 41.5
+  },
+  {
+   "date": "1949-01",
+   "tmax": 9.1,
+   "tmin": 2.1,
+   "af": 7,
+   "rain": null,
+   "sunHours": 97.2
+  },
+  {
+   "date": "1949-02",
+   "tmax": 8.7,
+   "tmin": 0.3,
+   "af": 13,
+   "rain": null,
+   "sunHours": 115.3
+  },
+  {
+   "date": "1949-03",
+   "tmax": 13.5,
+   "tmin": 4.9,
+   "af": 0,
+   "rain": null,
+   "sunHours": 146.1
+  },
+  {
+   "date": "1949-04",
+   "tmax": 15.9,
+   "tmin": 5.7,
+   "af": 0,
+   "rain": null,
+   "sunHours": 230.6
+  },
+  {
+   "date": "1949-05",
+   "tmax": 20.6,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 242.1
+  },
+  {
+   "date": "1949-06",
+   "tmax": 22.1,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 184
+  },
+  {
+   "date": "1949-07",
+   "tmax": 21.4,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 189.6
+  },
+  {
+   "date": "1949-08",
+   "tmax": 20.6,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": null,
+   "sunHours": 165.3
+  },
+  {
+   "date": "1949-09",
+   "tmax": 14.8,
+   "tmin": 7.9,
+   "af": 2,
+   "rain": null,
+   "sunHours": 80
+  },
+  {
+   "date": "1949-10",
+   "tmax": 8.9,
+   "tmin": 3.4,
+   "af": 2,
+   "rain": null,
+   "sunHours": 35.3
+  },
+  {
+   "date": "1949-11",
+   "tmax": 8.3,
+   "tmin": 2.4,
+   "af": 4,
+   "rain": null,
+   "sunHours": 31.7
+  },
+  {
+   "date": "1950-00",
+   "tmax": 6.9,
+   "tmin": 1.4,
+   "af": 14,
+   "rain": null,
+   "sunHours": 30.5
+  },
+  {
+   "date": "1950-01",
+   "tmax": 8.4,
+   "tmin": 1.6,
+   "af": 6,
+   "rain": null,
+   "sunHours": 46.5
+  },
+  {
+   "date": "1950-02",
+   "tmax": 11.4,
+   "tmin": 3,
+   "af": 5,
+   "rain": null,
+   "sunHours": 114.5
+  },
+  {
+   "date": "1950-03",
+   "tmax": 11,
+   "tmin": 3.1,
+   "af": 3,
+   "rain": null,
+   "sunHours": 130.4
+  },
+  {
+   "date": "1950-04",
+   "tmax": 15.8,
+   "tmin": 6.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 166.9
+  },
+  {
+   "date": "1950-05",
+   "tmax": 20.7,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": null,
+   "sunHours": 213.6
+  },
+  {
+   "date": "1950-06",
+   "tmax": 19.9,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": null,
+   "sunHours": 172.5
+  },
+  {
+   "date": "1950-07",
+   "tmax": 19.6,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 142.4
+  },
+  {
+   "date": "1950-08",
+   "tmax": 16.3,
+   "tmin": 9,
+   "af": 0,
+   "rain": null,
+   "sunHours": 92.7
+  },
+  {
+   "date": "1950-09",
+   "tmax": 12.6,
+   "tmin": 5.9,
+   "af": 3,
+   "rain": null,
+   "sunHours": 89.7
+  },
+  {
+   "date": "1950-10",
+   "tmax": 8.1,
+   "tmin": 2,
+   "af": 6,
+   "rain": null,
+   "sunHours": 38.4
+  },
+  {
+   "date": "1950-11",
+   "tmax": 3.2,
+   "tmin": -2.6,
+   "af": 23,
+   "rain": null,
+   "sunHours": 27.1
+  },
+  {
+   "date": "1951-00",
+   "tmax": 5.7,
+   "tmin": 0.7,
+   "af": 8,
+   "rain": null,
+   "sunHours": 29.5
+  },
+  {
+   "date": "1951-01",
+   "tmax": 6.4,
+   "tmin": 0.1,
+   "af": 12,
+   "rain": null,
+   "sunHours": 42.5
+  },
+  {
+   "date": "1951-02",
+   "tmax": 7,
+   "tmin": 0.3,
+   "af": 12,
+   "rain": null,
+   "sunHours": 74.9
+  },
+  {
+   "date": "1951-03",
+   "tmax": 10.7,
+   "tmin": 2.6,
+   "af": 2,
+   "rain": null,
+   "sunHours": 178.3
+  },
+  {
+   "date": "1951-04",
+   "tmax": 14.1,
+   "tmin": 5.9,
+   "af": 1,
+   "rain": null,
+   "sunHours": 170.7
+  },
+  {
+   "date": "1951-05",
+   "tmax": 18.7,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 226.5
+  },
+  {
+   "date": "1951-06",
+   "tmax": 19.8,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 174.1
+  },
+  {
+   "date": "1951-07",
+   "tmax": 18,
+   "tmin": 10.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 127.1
+  },
+  {
+   "date": "1951-08",
+   "tmax": 17.8,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": null,
+   "sunHours": 107.6
+  },
+  {
+   "date": "1951-09",
+   "tmax": 13.7,
+   "tmin": 6,
+   "af": 3,
+   "rain": null,
+   "sunHours": 120.2
+  },
+  {
+   "date": "1951-10",
+   "tmax": 11.1,
+   "tmin": 5.3,
+   "af": 1,
+   "rain": null,
+   "sunHours": 40.5
+  },
+  {
+   "date": "1951-11",
+   "tmax": 8.1,
+   "tmin": 1.6,
+   "af": 8,
+   "rain": null,
+   "sunHours": 39.6
+  },
+  {
+   "date": "1952-00",
+   "tmax": 5.2,
+   "tmin": -0.7,
+   "af": 15,
+   "rain": null,
+   "sunHours": 49.6
+  },
+  {
+   "date": "1952-01",
+   "tmax": 6.4,
+   "tmin": 0,
+   "af": 11,
+   "rain": null,
+   "sunHours": 70
+  },
+  {
+   "date": "1952-02",
+   "tmax": 9.1,
+   "tmin": 3.6,
+   "af": 7,
+   "rain": null,
+   "sunHours": 84.6
+  },
+  {
+   "date": "1952-03",
+   "tmax": 14.1,
+   "tmin": 4.8,
+   "af": 2,
+   "rain": null,
+   "sunHours": 142.3
+  },
+  {
+   "date": "1952-04",
+   "tmax": 17.3,
+   "tmin": 8.9,
+   "af": 0,
+   "rain": null,
+   "sunHours": 168.9
+  },
+  {
+   "date": "1952-05",
+   "tmax": 17.8,
+   "tmin": 9.4,
+   "af": 0,
+   "rain": null,
+   "sunHours": 145.8
+  },
+  {
+   "date": "1952-06",
+   "tmax": 19.8,
+   "tmin": 12.3,
+   "af": 0,
+   "rain": null,
+   "sunHours": 131.3
+  },
+  {
+   "date": "1952-07",
+   "tmax": 19.6,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 126.7
+  },
+  {
+   "date": "1952-08",
+   "tmax": 14.1,
+   "tmin": 6.7,
+   "af": 0,
+   "rain": null,
+   "sunHours": 91.1
+  },
+  {
+   "date": "1952-09",
+   "tmax": 12,
+   "tmin": 5.3,
+   "af": 5,
+   "rain": null,
+   "sunHours": 91.5
+  },
+  {
+   "date": "1952-10",
+   "tmax": 6.7,
+   "tmin": 0.7,
+   "af": 14,
+   "rain": null,
+   "sunHours": 53.3
+  },
+  {
+   "date": "1952-11",
+   "tmax": 5.6,
+   "tmin": 0.1,
+   "af": 12,
+   "rain": null,
+   "sunHours": 28.8
+  },
+  {
+   "date": "1953-00",
+   "tmax": 5.7,
+   "tmin": 0.6,
+   "af": 14,
+   "rain": null,
+   "sunHours": 10.6
+  },
+  {
+   "date": "1953-01",
+   "tmax": 7.5,
+   "tmin": 1.2,
+   "af": 12,
+   "rain": null,
+   "sunHours": 38.9
+  },
+  {
+   "date": "1953-02",
+   "tmax": 11.5,
+   "tmin": 0.7,
+   "af": 12,
+   "rain": null,
+   "sunHours": 140.3
+  },
+  {
+   "date": "1953-03",
+   "tmax": 11.6,
+   "tmin": 2.7,
+   "af": 2,
+   "rain": null,
+   "sunHours": 172.8
+  },
+  {
+   "date": "1953-04",
+   "tmax": 17.5,
+   "tmin": 8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 213.6
+  },
+  {
+   "date": "1953-05",
+   "tmax": 18.7,
+   "tmin": 10.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 142.9
+  },
+  {
+   "date": "1953-06",
+   "tmax": 19.2,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": null,
+   "sunHours": 180.4
+  },
+  {
+   "date": "1953-07",
+   "tmax": 20,
+   "tmin": 11.6,
+   "af": 0,
+   "rain": null,
+   "sunHours": 163.5
+  },
+  {
+   "date": "1953-08",
+   "tmax": 17.5,
+   "tmin": 10.2,
+   "af": 0,
+   "rain": null,
+   "sunHours": 137.4
+  },
+  {
+   "date": "1953-09",
+   "tmax": 13.5,
+   "tmin": 5.6,
+   "af": 1,
+   "rain": null,
+   "sunHours": 85
+  },
+  {
+   "date": "1953-10",
+   "tmax": 10.9,
+   "tmin": 5.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 45.1
+  },
+  {
+   "date": "1953-11",
+   "tmax": 8.9,
+   "tmin": 4,
+   "af": 2,
+   "rain": null,
+   "sunHours": 23.2
+  },
+  {
+   "date": "1954-00",
+   "tmax": 5.2,
+   "tmin": -0.1,
+   "af": 15,
+   "rain": null,
+   "sunHours": 35.9
+  },
+  {
+   "date": "1954-01",
+   "tmax": 5.3,
+   "tmin": -0.5,
+   "af": 11,
+   "rain": null,
+   "sunHours": 53.7
+  },
+  {
+   "date": "1954-02",
+   "tmax": 9.4,
+   "tmin": 2.2,
+   "af": 5,
+   "rain": null,
+   "sunHours": 104.1
+  },
+  {
+   "date": "1954-03",
+   "tmax": 12.7,
+   "tmin": 3.3,
+   "af": 1,
+   "rain": null,
+   "sunHours": 190.8
+  },
+  {
+   "date": "1954-04",
+   "tmax": 15.4,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": null,
+   "sunHours": 114.5
+  },
+  {
+   "date": "1954-05",
+   "tmax": 17.1,
+   "tmin": 9.6,
+   "af": 0,
+   "rain": null,
+   "sunHours": 143.4
+  },
+  {
+   "date": "1954-06",
+   "tmax": 16.7,
+   "tmin": 10.2,
+   "af": 0,
+   "rain": null,
+   "sunHours": 99.9
+  },
+  {
+   "date": "1954-07",
+   "tmax": 17.7,
+   "tmin": 10.9,
+   "af": 0,
+   "rain": null,
+   "sunHours": 94.7
+  },
+  {
+   "date": "1954-08",
+   "tmax": 16.3,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 148.7
+  },
+  {
+   "date": "1954-09",
+   "tmax": 14.6,
+   "tmin": 8.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 64.7
+  },
+  {
+   "date": "1954-10",
+   "tmax": 9.8,
+   "tmin": 2.9,
+   "af": 4,
+   "rain": null,
+   "sunHours": 48.8
+  },
+  {
+   "date": "1954-11",
+   "tmax": 8.8,
+   "tmin": 4,
+   "af": 2,
+   "rain": null,
+   "sunHours": 29.3
+  },
+  {
+   "date": "1955-00",
+   "tmax": 5.3,
+   "tmin": -0.1,
+   "af": 14,
+   "rain": null,
+   "sunHours": 32
+  },
+  {
+   "date": "1955-01",
+   "tmax": 3.8,
+   "tmin": -2.2,
+   "af": 18,
+   "rain": null,
+   "sunHours": 67
+  },
+  {
+   "date": "1955-02",
+   "tmax": 6.9,
+   "tmin": -0.9,
+   "af": 20,
+   "rain": null,
+   "sunHours": 135.8
+  },
+  {
+   "date": "1955-03",
+   "tmax": 13.6,
+   "tmin": 4.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 144.1
+  },
+  {
+   "date": "1955-04",
+   "tmax": 13.5,
+   "tmin": 5.3,
+   "af": 1,
+   "rain": null,
+   "sunHours": 191.4
+  },
+  {
+   "date": "1955-05",
+   "tmax": 17.8,
+   "tmin": 9.4,
+   "af": 0,
+   "rain": null,
+   "sunHours": 161.4
+  },
+  {
+   "date": "1955-06",
+   "tmax": 23.6,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 281.4
+  },
+  {
+   "date": "1955-07",
+   "tmax": 23.5,
+   "tmin": 13,
+   "af": 0,
+   "rain": null,
+   "sunHours": 198.1
+  },
+  {
+   "date": "1955-08",
+   "tmax": 18.1,
+   "tmin": 10,
+   "af": 0,
+   "rain": null,
+   "sunHours": 139.2
+  },
+  {
+   "date": "1955-09",
+   "tmax": 13.4,
+   "tmin": 4.7,
+   "af": 7,
+   "rain": null,
+   "sunHours": 101.8
+  },
+  {
+   "date": "1955-10",
+   "tmax": 10,
+   "tmin": 3.8,
+   "af": 7,
+   "rain": null,
+   "sunHours": 55.2
+  },
+  {
+   "date": "1955-11",
+   "tmax": 8.5,
+   "tmin": 2.1,
+   "af": 9,
+   "rain": null,
+   "sunHours": 31.6
+  },
+  {
+   "date": "1956-00",
+   "tmax": 6,
+   "tmin": 0.5,
+   "af": 12,
+   "rain": null,
+   "sunHours": 53.5
+  },
+  {
+   "date": "1956-01",
+   "tmax": 3.6,
+   "tmin": -3.1,
+   "af": 23,
+   "rain": null,
+   "sunHours": 63.9
+  },
+  {
+   "date": "1956-02",
+   "tmax": 10.3,
+   "tmin": 2.6,
+   "af": 6,
+   "rain": null,
+   "sunHours": 136.7
+  },
+  {
+   "date": "1956-03",
+   "tmax": 11.5,
+   "tmin": 2.1,
+   "af": 6,
+   "rain": null,
+   "sunHours": 154.6
+  },
+  {
+   "date": "1956-04",
+   "tmax": 16.8,
+   "tmin": 6.9,
+   "af": 0,
+   "rain": null,
+   "sunHours": 232.7
+  },
+  {
+   "date": "1956-05",
+   "tmax": 16.6,
+   "tmin": 9,
+   "af": 0,
+   "rain": null,
+   "sunHours": 131.6
+  },
+  {
+   "date": "1956-06",
+   "tmax": 19.2,
+   "tmin": 12,
+   "af": 0,
+   "rain": null,
+   "sunHours": 128.7
+  },
+  {
+   "date": "1956-07",
+   "tmax": 16.9,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": null,
+   "sunHours": 118.7
+  },
+  {
+   "date": "1956-08",
+   "tmax": 18.1,
+   "tmin": 10.7,
+   "af": 0,
+   "rain": null,
+   "sunHours": 115.3
+  },
+  {
+   "date": "1956-09",
+   "tmax": 12.9,
+   "tmin": 5.2,
+   "af": 2,
+   "rain": null,
+   "sunHours": 99.9
+  },
+  {
+   "date": "1956-10",
+   "tmax": 8.9,
+   "tmin": 2.8,
+   "af": 5,
+   "rain": null,
+   "sunHours": 48.7
+  },
+  {
+   "date": "1956-11",
+   "tmax": 7.9,
+   "tmin": 3.1,
+   "af": 9,
+   "rain": null,
+   "sunHours": 25.1
+  },
+  {
+   "date": "1957-00",
+   "tmax": 8.5,
+   "tmin": 1.9,
+   "af": 9,
+   "rain": null,
+   "sunHours": 34.1
+  },
+  {
+   "date": "1957-01",
+   "tmax": 8.4,
+   "tmin": 1.7,
+   "af": 4,
+   "rain": null,
+   "sunHours": 75.7
+  },
+  {
+   "date": "1957-02",
+   "tmax": 12.7,
+   "tmin": 6,
+   "af": 0,
+   "rain": null,
+   "sunHours": 100.3
+  },
+  {
+   "date": "1957-03",
+   "tmax": 13.1,
+   "tmin": 4.5,
+   "af": 1,
+   "rain": null,
+   "sunHours": 126.9
+  },
+  {
+   "date": "1957-04",
+   "tmax": 15.2,
+   "tmin": 5.9,
+   "af": 1,
+   "rain": null,
+   "sunHours": 182.3
+  },
+  {
+   "date": "1957-05",
+   "tmax": 21,
+   "tmin": 9.4,
+   "af": 0,
+   "rain": null,
+   "sunHours": 297.5
+  },
+  {
+   "date": "1957-06",
+   "tmax": 19.4,
+   "tmin": 12.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 107.3
+  },
+  {
+   "date": "1957-07",
+   "tmax": 18.9,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 134.8
+  },
+  {
+   "date": "1957-08",
+   "tmax": 15.3,
+   "tmin": 9.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 85.3
+  },
+  {
+   "date": "1957-09",
+   "tmax": 13.9,
+   "tmin": 7,
+   "af": 0,
+   "rain": null,
+   "sunHours": 82.9
+  },
+  {
+   "date": "1957-10",
+   "tmax": 8.9,
+   "tmin": 3.7,
+   "af": 4,
+   "rain": null,
+   "sunHours": 43.4
+  },
+  {
+   "date": "1957-11",
+   "tmax": 7.4,
+   "tmin": 1.3,
+   "af": 8,
+   "rain": null,
+   "sunHours": 49.1
+  },
+  {
+   "date": "1958-00",
+   "tmax": 5.9,
+   "tmin": 0,
+   "af": 14,
+   "rain": null,
+   "sunHours": 37
+  },
+  {
+   "date": "1958-01",
+   "tmax": 7.7,
+   "tmin": 1,
+   "af": 13,
+   "rain": null,
+   "sunHours": 52.5
+  },
+  {
+   "date": "1958-02",
+   "tmax": 7.2,
+   "tmin": 0.4,
+   "af": 16,
+   "rain": null,
+   "sunHours": 101.1
+  },
+  {
+   "date": "1958-03",
+   "tmax": 11.5,
+   "tmin": 3.4,
+   "af": 5,
+   "rain": null,
+   "sunHours": 122.9
+  },
+  {
+   "date": "1958-04",
+   "tmax": 15.1,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": null,
+   "sunHours": 149.4
+  },
+  {
+   "date": "1958-05",
+   "tmax": 17.9,
+   "tmin": 9.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 139.3
+  },
+  {
+   "date": "1958-06",
+   "tmax": 19.6,
+   "tmin": 11.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 146.5
+  },
+  {
+   "date": "1958-07",
+   "tmax": 19.9,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 144.5
+  },
+  {
+   "date": "1958-08",
+   "tmax": 19.1,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": null,
+   "sunHours": 132.6
+  },
+  {
+   "date": "1958-09",
+   "tmax": 13.2,
+   "tmin": 7.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 74.2
+  },
+  {
+   "date": "1958-10",
+   "tmax": 9,
+   "tmin": 3.3,
+   "af": 5,
+   "rain": null,
+   "sunHours": 37.5
+  },
+  {
+   "date": "1958-11",
+   "tmax": 6.7,
+   "tmin": 1.5,
+   "af": 6,
+   "rain": null,
+   "sunHours": 22.7
+  },
+  {
+   "date": "1959-00",
+   "tmax": 4.7,
+   "tmin": -1.7,
+   "af": 22,
+   "rain": null,
+   "sunHours": 67.8
+  },
+  {
+   "date": "1959-01",
+   "tmax": 7.9,
+   "tmin": 1.6,
+   "af": 10,
+   "rain": null,
+   "sunHours": 51.5
+  },
+  {
+   "date": "1959-02",
+   "tmax": 11,
+   "tmin": 3.9,
+   "af": 1,
+   "rain": null,
+   "sunHours": 94.9
+  },
+  {
+   "date": "1959-03",
+   "tmax": 13.4,
+   "tmin": 5.4,
+   "af": 1,
+   "rain": null,
+   "sunHours": 123
+  },
+  {
+   "date": "1959-04",
+   "tmax": 18.6,
+   "tmin": 8.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 257.7
+  },
+  {
+   "date": "1959-05",
+   "tmax": 20,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": null,
+   "sunHours": 230.3
+  },
+  {
+   "date": "1959-06",
+   "tmax": 21.9,
+   "tmin": 12.5,
+   "af": 0,
+   "rain": null,
+   "sunHours": 204
+  },
+  {
+   "date": "1959-07",
+   "tmax": 22.2,
+   "tmin": 12.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 195.9
+  },
+  {
+   "date": "1959-08",
+   "tmax": 20.9,
+   "tmin": 10.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 190.6
+  },
+  {
+   "date": "1959-09",
+   "tmax": 17.4,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 145.4
+  },
+  {
+   "date": "1959-10",
+   "tmax": 10.1,
+   "tmin": 4.3,
+   "af": 2,
+   "rain": null,
+   "sunHours": 59.8
+  },
+  {
+   "date": "1959-11",
+   "tmax": 8.2,
+   "tmin": 3.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 35.8
+  },
+  {
+   "date": "1960-00",
+   "tmax": 6.4,
+   "tmin": 1.3,
+   "af": 10,
+   "rain": null,
+   "sunHours": 21.5
+  },
+  {
+   "date": "1960-01",
+   "tmax": 7.1,
+   "tmin": 1,
+   "af": 10,
+   "rain": null,
+   "sunHours": 69.2
+  },
+  {
+   "date": "1960-02",
+   "tmax": 9.5,
+   "tmin": 3.5,
+   "af": 1,
+   "rain": null,
+   "sunHours": 87.5
+  },
+  {
+   "date": "1960-03",
+   "tmax": 13.3,
+   "tmin": 4.7,
+   "af": 1,
+   "rain": null,
+   "sunHours": 145.3
+  },
+  {
+   "date": "1960-04",
+   "tmax": 17.9,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": null,
+   "sunHours": 183.9
+  },
+  {
+   "date": "1960-05",
+   "tmax": 21.7,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": null,
+   "sunHours": 266.9
+  },
+  {
+   "date": "1960-06",
+   "tmax": 19.1,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": null,
+   "sunHours": 148.3
+  },
+  {
+   "date": "1960-07",
+   "tmax": 18.8,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": null,
+   "sunHours": 159.7
+  },
+  {
+   "date": "1960-08",
+   "tmax": 16.8,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": null,
+   "sunHours": 134.3
+  },
+  {
+   "date": "1960-09",
+   "tmax": 13.1,
+   "tmin": 7.4,
+   "af": 0,
+   "rain": null,
+   "sunHours": 67.8
+  },
+  {
+   "date": "1960-10",
+   "tmax": 9.7,
+   "tmin": 4.1,
+   "af": 3,
+   "rain": null,
+   "sunHours": 52.1
+  },
+  {
+   "date": "1960-11",
+   "tmax": 6.1,
+   "tmin": 1,
+   "af": 9,
+   "rain": null,
+   "sunHours": 40.3
+  },
+  {
+   "date": "1961-00",
+   "tmax": 5.9,
+   "tmin": 0.4,
+   "af": 11,
+   "rain": 101.2,
+   "sunHours": 35.6
+  },
+  {
+   "date": "1961-01",
+   "tmax": 9.7,
+   "tmin": 3.8,
+   "af": 2,
+   "rain": 60.2,
+   "sunHours": 61.2
+  },
+  {
+   "date": "1961-02",
+   "tmax": 12.2,
+   "tmin": 4.9,
+   "af": 1,
+   "rain": 32.1,
+   "sunHours": 125.4
+  },
+  {
+   "date": "1961-03",
+   "tmax": 13.6,
+   "tmin": 6.6,
+   "af": 0,
+   "rain": 62.4,
+   "sunHours": 94.3
+  },
+  {
+   "date": "1961-04",
+   "tmax": 15.2,
+   "tmin": 6.5,
+   "af": 0,
+   "rain": 64.4,
+   "sunHours": 166.8
+  },
+  {
+   "date": "1961-05",
+   "tmax": 18.6,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": 49.8,
+   "sunHours": 197.1
+  },
+  {
+   "date": "1961-06",
+   "tmax": 18.2,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": 86.9,
+   "sunHours": 157.2
+  },
+  {
+   "date": "1961-07",
+   "tmax": 18.7,
+   "tmin": 11.4,
+   "af": 0,
+   "rain": 106.9,
+   "sunHours": 161.7
+  },
+  {
+   "date": "1961-08",
+   "tmax": 19.1,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": 86.9,
+   "sunHours": 144.5
+  },
+  {
+   "date": "1961-09",
+   "tmax": 13.8,
+   "tmin": 7.7,
+   "af": 0,
+   "rain": 97.3,
+   "sunHours": 118.3
+  },
+  {
+   "date": "1961-10",
+   "tmax": 8.9,
+   "tmin": 3.3,
+   "af": 3,
+   "rain": 50,
+   "sunHours": 73.5
+  },
+  {
+   "date": "1961-11",
+   "tmax": 4.6,
+   "tmin": -0.8,
+   "af": 17,
+   "rain": 57.2,
+   "sunHours": 55.2
+  },
+  {
+   "date": "1962-00",
+   "tmax": 7.1,
+   "tmin": 0.9,
+   "af": 8,
+   "rain": 66.7,
+   "sunHours": 63
+  },
+  {
+   "date": "1962-01",
+   "tmax": 7.2,
+   "tmin": 1.6,
+   "af": 5,
+   "rain": 48.6,
+   "sunHours": 62
+  },
+  {
+   "date": "1962-02",
+   "tmax": 6.1,
+   "tmin": -1.1,
+   "af": 18,
+   "rain": 42.5,
+   "sunHours": 120
+  },
+  {
+   "date": "1962-03",
+   "tmax": 11.2,
+   "tmin": 4,
+   "af": 2,
+   "rain": 57.9,
+   "sunHours": 169.3
+  },
+  {
+   "date": "1962-04",
+   "tmax": 13.7,
+   "tmin": 6.6,
+   "af": 0,
+   "rain": 80.7,
+   "sunHours": 160.6
+  },
+  {
+   "date": "1962-05",
+   "tmax": 17.9,
+   "tmin": 9.4,
+   "af": 0,
+   "rain": 19.9,
+   "sunHours": 207.6
+  },
+  {
+   "date": "1962-06",
+   "tmax": 17.9,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": 61.5,
+   "sunHours": 101.9
+  },
+  {
+   "date": "1962-07",
+   "tmax": 17.4,
+   "tmin": 10.6,
+   "af": 0,
+   "rain": 137.5,
+   "sunHours": 146.7
+  },
+  {
+   "date": "1962-08",
+   "tmax": 15.8,
+   "tmin": 9.6,
+   "af": 0,
+   "rain": 81.4,
+   "sunHours": 90.6
+  },
+  {
+   "date": "1962-09",
+   "tmax": 13.9,
+   "tmin": 7.2,
+   "af": 2,
+   "rain": 47.4,
+   "sunHours": 89.3
+  },
+  {
+   "date": "1962-10",
+   "tmax": 8.1,
+   "tmin": 2.6,
+   "af": 6,
+   "rain": 37.2,
+   "sunHours": 47.6
+  },
+  {
+   "date": "1962-11",
+   "tmax": 4.9,
+   "tmin": -0.7,
+   "af": 16,
+   "rain": 78.7,
+   "sunHours": 60.6
+  },
+  {
+   "date": "1963-00",
+   "tmax": 0.9,
+   "tmin": -4.1,
+   "af": 27,
+   "rain": 11.3,
+   "sunHours": 66.3
+  },
+  {
+   "date": "1963-01",
+   "tmax": 2.8,
+   "tmin": -2.9,
+   "af": 27,
+   "rain": 5.7,
+   "sunHours": 87.8
+  },
+  {
+   "date": "1963-02",
+   "tmax": 9.5,
+   "tmin": 2.8,
+   "af": 6,
+   "rain": 51,
+   "sunHours": 102
+  },
+  {
+   "date": "1963-03",
+   "tmax": 11.8,
+   "tmin": 5.1,
+   "af": 0,
+   "rain": 49.7,
+   "sunHours": 103.7
+  },
+  {
+   "date": "1963-04",
+   "tmax": 14.3,
+   "tmin": 6.6,
+   "af": 0,
+   "rain": 41,
+   "sunHours": 172
+  },
+  {
+   "date": "1963-05",
+   "tmax": 19.4,
+   "tmin": 10.8,
+   "af": 0,
+   "rain": 98.5,
+   "sunHours": 212.6
+  },
+  {
+   "date": "1963-06",
+   "tmax": 19.2,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": 58.1,
+   "sunHours": 165.8
+  },
+  {
+   "date": "1963-07",
+   "tmax": 17.1,
+   "tmin": 10.9,
+   "af": 0,
+   "rain": 76.3,
+   "sunHours": 122.1
+  },
+  {
+   "date": "1963-08",
+   "tmax": 16.7,
+   "tmin": 9.2,
+   "af": 0,
+   "rain": 107.8,
+   "sunHours": 155.1
+  },
+  {
+   "date": "1963-09",
+   "tmax": 13.8,
+   "tmin": 7.6,
+   "af": 0,
+   "rain": 63.2,
+   "sunHours": 82.9
+  },
+  {
+   "date": "1963-10",
+   "tmax": 10.1,
+   "tmin": 5,
+   "af": 1,
+   "rain": 108,
+   "sunHours": 41.5
+  },
+  {
+   "date": "1963-11",
+   "tmax": 5.5,
+   "tmin": 0.4,
+   "af": 11,
+   "rain": 11.2,
+   "sunHours": 51.6
+  },
+  {
+   "date": "1964-00",
+   "tmax": 6.1,
+   "tmin": 1.1,
+   "af": 10,
+   "rain": 22.6,
+   "sunHours": 44.7
+  },
+  {
+   "date": "1964-01",
+   "tmax": 7.1,
+   "tmin": 1.9,
+   "af": 8,
+   "rain": 15.8,
+   "sunHours": 61.4
+  },
+  {
+   "date": "1964-02",
+   "tmax": 6.8,
+   "tmin": 1.7,
+   "af": 10,
+   "rain": 76.5,
+   "sunHours": 67
+  },
+  {
+   "date": "1964-03",
+   "tmax": 12.2,
+   "tmin": 5.5,
+   "af": 1,
+   "rain": 51.9,
+   "sunHours": 109
+  },
+  {
+   "date": "1964-04",
+   "tmax": 17.6,
+   "tmin": 9.5,
+   "af": 0,
+   "rain": 60.3,
+   "sunHours": 194.7
+  },
+  {
+   "date": "1964-05",
+   "tmax": 16.8,
+   "tmin": 10.2,
+   "af": 0,
+   "rain": 69.4,
+   "sunHours": 116.5
+  },
+  {
+   "date": "1964-06",
+   "tmax": 18.9,
+   "tmin": 12,
+   "af": 0,
+   "rain": 81.9,
+   "sunHours": 143.1
+  },
+  {
+   "date": "1964-07",
+   "tmax": 19.3,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": 71.9,
+   "sunHours": 180.3
+  },
+  {
+   "date": "1964-08",
+   "tmax": 18,
+   "tmin": 9.6,
+   "af": 0,
+   "rain": 43.4,
+   "sunHours": 156
+  },
+  {
+   "date": "1964-09",
+   "tmax": 12.6,
+   "tmin": 5.4,
+   "af": 2,
+   "rain": 75.1,
+   "sunHours": 122
+  },
+  {
+   "date": "1964-10",
+   "tmax": 9.8,
+   "tmin": 4,
+   "af": 4,
+   "rain": 56.2,
+   "sunHours": 49.6
+  },
+  {
+   "date": "1964-11",
+   "tmax": 6.4,
+   "tmin": -0.3,
+   "af": 15,
+   "rain": 107.4,
+   "sunHours": 61.2
+  },
+  {
+   "date": "1965-00",
+   "tmax": 5.7,
+   "tmin": 0.6,
+   "af": 14,
+   "rain": 77.3,
+   "sunHours": 48.2
+  },
+  {
+   "date": "1965-01",
+   "tmax": 5.9,
+   "tmin": 0.8,
+   "af": 11,
+   "rain": 6,
+   "sunHours": 38.4
+  },
+  {
+   "date": "1965-02",
+   "tmax": 9.5,
+   "tmin": 1.4,
+   "af": 9,
+   "rain": 38.2,
+   "sunHours": 130.7
+  },
+  {
+   "date": "1965-03",
+   "tmax": 11.8,
+   "tmin": 3.9,
+   "af": 0,
+   "rain": 57.6,
+   "sunHours": 140.5
+  },
+  {
+   "date": "1965-04",
+   "tmax": 15.3,
+   "tmin": 7.9,
+   "af": 0,
+   "rain": 72.1,
+   "sunHours": 154.2
+  },
+  {
+   "date": "1965-05",
+   "tmax": 18.9,
+   "tmin": 10.5,
+   "af": 0,
+   "rain": 57,
+   "sunHours": 174.7
+  },
+  {
+   "date": "1965-06",
+   "tmax": 17.1,
+   "tmin": 10.8,
+   "af": 0,
+   "rain": 72.1,
+   "sunHours": 102.7
+  },
+  {
+   "date": "1965-07",
+   "tmax": 18.7,
+   "tmin": 11,
+   "af": 0,
+   "rain": 49.6,
+   "sunHours": 171.7
+  },
+  {
+   "date": "1965-08",
+   "tmax": 15.3,
+   "tmin": 9.2,
+   "af": 0,
+   "rain": 170.6,
+   "sunHours": 93.6
+  },
+  {
+   "date": "1965-09",
+   "tmax": 15.1,
+   "tmin": 7.4,
+   "af": 1,
+   "rain": 41.2,
+   "sunHours": 131.2
+  },
+  {
+   "date": "1965-10",
+   "tmax": 7,
+   "tmin": 1.6,
+   "af": 11,
+   "rain": 55.1,
+   "sunHours": 70.2
+  },
+  {
+   "date": "1965-11",
+   "tmax": 6.9,
+   "tmin": 1.4,
+   "af": 7,
+   "rain": 179.9,
+   "sunHours": 51.7
+  },
+  {
+   "date": "1966-00",
+   "tmax": 5.4,
+   "tmin": 1,
+   "af": 10,
+   "rain": 29,
+   "sunHours": 35.3
+  },
+  {
+   "date": "1966-01",
+   "tmax": 8,
+   "tmin": 3.3,
+   "af": 6,
+   "rain": 100.4,
+   "sunHours": 49.6
+  },
+  {
+   "date": "1966-02",
+   "tmax": 9.5,
+   "tmin": 3.4,
+   "af": 2,
+   "rain": 38.3,
+   "sunHours": 93.8
+  },
+  {
+   "date": "1966-03",
+   "tmax": 10.1,
+   "tmin": 4.3,
+   "af": 2,
+   "rain": 80.1,
+   "sunHours": 92.5
+  },
+  {
+   "date": "1966-04",
+   "tmax": 15.4,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": 75.9,
+   "sunHours": 219.1
+  },
+  {
+   "date": "1966-05",
+   "tmax": 19.2,
+   "tmin": 11.9,
+   "af": 0,
+   "rain": 122.8,
+   "sunHours": 167.6
+  },
+  {
+   "date": "1966-06",
+   "tmax": 18.1,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": 122,
+   "sunHours": 147.1
+  },
+  {
+   "date": "1966-07",
+   "tmax": 18.6,
+   "tmin": 10.6,
+   "af": 0,
+   "rain": 89.8,
+   "sunHours": 153.3
+  },
+  {
+   "date": "1966-08",
+   "tmax": 17.5,
+   "tmin": 10,
+   "af": 0,
+   "rain": 60.3,
+   "sunHours": 131.4
+  },
+  {
+   "date": "1966-09",
+   "tmax": 12.9,
+   "tmin": 6.9,
+   "af": 2,
+   "rain": 75.7,
+   "sunHours": 80.9
+  },
+  {
+   "date": "1966-10",
+   "tmax": 8.2,
+   "tmin": 3,
+   "af": 2,
+   "rain": 73.7,
+   "sunHours": 29.7
+  },
+  {
+   "date": "1966-11",
+   "tmax": 7.8,
+   "tmin": 2.5,
+   "af": 5,
+   "rain": 123.7,
+   "sunHours": 41.4
+  },
+  {
+   "date": "1967-00",
+   "tmax": 6.7,
+   "tmin": 1.6,
+   "af": 9,
+   "rain": 41.4,
+   "sunHours": 56.5
+  },
+  {
+   "date": "1967-01",
+   "tmax": 7.9,
+   "tmin": 2.4,
+   "af": 4,
+   "rain": 51.9,
+   "sunHours": 67.9
+  },
+  {
+   "date": "1967-02",
+   "tmax": 9.9,
+   "tmin": 3.8,
+   "af": 1,
+   "rain": 34.7,
+   "sunHours": 137.4
+  },
+  {
+   "date": "1967-03",
+   "tmax": 10.9,
+   "tmin": 4.3,
+   "af": 1,
+   "rain": 25.7,
+   "sunHours": 99.6
+  },
+  {
+   "date": "1967-04",
+   "tmax": 14.1,
+   "tmin": 6.6,
+   "af": 2,
+   "rain": 144.4,
+   "sunHours": 157
+  },
+  {
+   "date": "1967-05",
+   "tmax": 19.3,
+   "tmin": 9.8,
+   "af": 0,
+   "rain": 62.2,
+   "sunHours": 236.5
+  },
+  {
+   "date": "1967-06",
+   "tmax": 20.6,
+   "tmin": 12.3,
+   "af": 0,
+   "rain": 58.2,
+   "sunHours": 193.6
+  },
+  {
+   "date": "1967-07",
+   "tmax": 19.2,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": 83.7,
+   "sunHours": 142.8
+  },
+  {
+   "date": "1967-08",
+   "tmax": 17,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 77.3,
+   "sunHours": 116.5
+  },
+  {
+   "date": "1967-09",
+   "tmax": 13.3,
+   "tmin": 7.8,
+   "af": 0,
+   "rain": 118.6,
+   "sunHours": 94.4
+  },
+  {
+   "date": "1967-10",
+   "tmax": 7.9,
+   "tmin": 1.8,
+   "af": 10,
+   "rain": 54.7,
+   "sunHours": 56.6
+  },
+  {
+   "date": "1967-11",
+   "tmax": 6.7,
+   "tmin": 1.3,
+   "af": 12,
+   "rain": 62.2,
+   "sunHours": 51.8
+  },
+  {
+   "date": "1968-00",
+   "tmax": 7,
+   "tmin": 1.8,
+   "af": 10,
+   "rain": 87.2,
+   "sunHours": 33.1
+  },
+  {
+   "date": "1968-01",
+   "tmax": 4.7,
+   "tmin": -0.8,
+   "af": 17,
+   "rain": 39.9,
+   "sunHours": 80.6
+  },
+  {
+   "date": "1968-02",
+   "tmax": 9.7,
+   "tmin": 2.7,
+   "af": 5,
+   "rain": 59,
+   "sunHours": 97.2
+  },
+  {
+   "date": "1968-03",
+   "tmax": 12.7,
+   "tmin": 4.2,
+   "af": 9,
+   "rain": 45.7,
+   "sunHours": 187.8
+  },
+  {
+   "date": "1968-04",
+   "tmax": 13.5,
+   "tmin": 6.1,
+   "af": 0,
+   "rain": 75.1,
+   "sunHours": 142.3
+  },
+  {
+   "date": "1968-05",
+   "tmax": 19.3,
+   "tmin": 10.9,
+   "af": 0,
+   "rain": 67.3,
+   "sunHours": 187.3
+  },
+  {
+   "date": "1968-06",
+   "tmax": 18.5,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": 92.6,
+   "sunHours": 130
+  },
+  {
+   "date": "1968-07",
+   "tmax": 19.5,
+   "tmin": 12,
+   "af": 0,
+   "rain": 52.6,
+   "sunHours": 166.1
+  },
+  {
+   "date": "1968-08",
+   "tmax": 17,
+   "tmin": 11,
+   "af": 0,
+   "rain": 122.8,
+   "sunHours": 112
+  },
+  {
+   "date": "1968-09",
+   "tmax": 15.1,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": 89.2,
+   "sunHours": 64.6
+  },
+  {
+   "date": "1968-10",
+   "tmax": 8.8,
+   "tmin": 4.1,
+   "af": 3,
+   "rain": 52.8,
+   "sunHours": 53
+  },
+  {
+   "date": "1968-11",
+   "tmax": 5.3,
+   "tmin": 0.9,
+   "af": 10,
+   "rain": 29.6,
+   "sunHours": 42.1
+  },
+  {
+   "date": "1969-00",
+   "tmax": 7.6,
+   "tmin": 3.1,
+   "af": 7,
+   "rain": 74.9,
+   "sunHours": 21
+  },
+  {
+   "date": "1969-01",
+   "tmax": 3.1,
+   "tmin": -2.5,
+   "af": 18,
+   "rain": 72.8,
+   "sunHours": 64.1
+  },
+  {
+   "date": "1969-02",
+   "tmax": 6,
+   "tmin": 0.6,
+   "af": 7,
+   "rain": 49,
+   "sunHours": 80.7
+  },
+  {
+   "date": "1969-03",
+   "tmax": 11.5,
+   "tmin": 3.2,
+   "af": 4,
+   "rain": 81.5,
+   "sunHours": 182.4
+  },
+  {
+   "date": "1969-04",
+   "tmax": 14.8,
+   "tmin": 7.6,
+   "af": 0,
+   "rain": 96.4,
+   "sunHours": 132
+  },
+  {
+   "date": "1969-05",
+   "tmax": 18.8,
+   "tmin": 9.5,
+   "af": 0,
+   "rain": 51.8,
+   "sunHours": 249.3
+  },
+  {
+   "date": "1969-06",
+   "tmax": 20.8,
+   "tmin": 12.6,
+   "af": 0,
+   "rain": 33,
+   "sunHours": 188.4
+  },
+  {
+   "date": "1969-07",
+   "tmax": 19.7,
+   "tmin": 12.9,
+   "af": 0,
+   "rain": 81.7,
+   "sunHours": 156.3
+  },
+  {
+   "date": "1969-08",
+   "tmax": 17.7,
+   "tmin": 10.8,
+   "af": 0,
+   "rain": 44.6,
+   "sunHours": 100.4
+  },
+  {
+   "date": "1969-09",
+   "tmax": 16,
+   "tmin": 10.2,
+   "af": 0,
+   "rain": 23.9,
+   "sunHours": 101
+  },
+  {
+   "date": "1969-10",
+   "tmax": 7.7,
+   "tmin": 2.1,
+   "af": 8,
+   "rain": 136.5,
+   "sunHours": 79
+  },
+  {
+   "date": "1969-11",
+   "tmax": 5.7,
+   "tmin": 0.6,
+   "af": 16,
+   "rain": 83.5,
+   "sunHours": 30.2
+  },
+  {
+   "date": "1970-00",
+   "tmax": 6.5,
+   "tmin": 1.4,
+   "af": 9,
+   "rain": 67.2,
+   "sunHours": 35
+  },
+  {
+   "date": "1970-01",
+   "tmax": 5.6,
+   "tmin": -0.1,
+   "af": 12,
+   "rain": 85.4,
+   "sunHours": 83.9
+  },
+  {
+   "date": "1970-02",
+   "tmax": 6.8,
+   "tmin": 0.3,
+   "af": 12,
+   "rain": 60.4,
+   "sunHours": 122.8
+  },
+  {
+   "date": "1970-03",
+   "tmax": 10,
+   "tmin": 3.2,
+   "af": 5,
+   "rain": 92.4,
+   "sunHours": 125.2
+  },
+  {
+   "date": "1970-04",
+   "tmax": 17.9,
+   "tmin": 9.1,
+   "af": 0,
+   "rain": 11.5,
+   "sunHours": 200.1
+  },
+  {
+   "date": "1970-05",
+   "tmax": 21.9,
+   "tmin": 11.9,
+   "af": 0,
+   "rain": 56.2,
+   "sunHours": 262.9
+  },
+  {
+   "date": "1970-06",
+   "tmax": 18.1,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 67.8,
+   "sunHours": 137.9
+  },
+  {
+   "date": "1970-07",
+   "tmax": 20.1,
+   "tmin": 12.2,
+   "af": 0,
+   "rain": 92.7,
+   "sunHours": 160.3
+  },
+  {
+   "date": "1970-08",
+   "tmax": 17.7,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": 54.5,
+   "sunHours": 112.9
+  },
+  {
+   "date": "1970-09",
+   "tmax": 14.1,
+   "tmin": 7.1,
+   "af": 0,
+   "rain": 73.3,
+   "sunHours": 109.6
+  },
+  {
+   "date": "1970-10",
+   "tmax": 10.3,
+   "tmin": 5.2,
+   "af": 1,
+   "rain": 130.3,
+   "sunHours": 50.7
+  },
+  {
+   "date": "1970-11",
+   "tmax": 6.7,
+   "tmin": 2.3,
+   "af": 10,
+   "rain": 27.1,
+   "sunHours": 49.4
+  },
+  {
+   "date": "1971-00",
+   "tmax": 6.9,
+   "tmin": 2,
+   "af": 6,
+   "rain": 55.3,
+   "sunHours": 52.4
+  },
+  {
+   "date": "1971-01",
+   "tmax": 7.4,
+   "tmin": 2.2,
+   "af": 5,
+   "rain": 34.5,
+   "sunHours": 57.6
+  },
+  {
+   "date": "1971-02",
+   "tmax": 8.2,
+   "tmin": 2.1,
+   "af": 9,
+   "rain": 45.8,
+   "sunHours": 70
+  },
+  {
+   "date": "1971-03",
+   "tmax": 11.8,
+   "tmin": 4.4,
+   "af": 2,
+   "rain": 63.9,
+   "sunHours": 109.9
+  },
+  {
+   "date": "1971-04",
+   "tmax": 16.1,
+   "tmin": 7.5,
+   "af": 0,
+   "rain": 47.9,
+   "sunHours": 214.2
+  },
+  {
+   "date": "1971-05",
+   "tmax": 15.7,
+   "tmin": 9.1,
+   "af": 0,
+   "rain": 74.3,
+   "sunHours": 129
+  },
+  {
+   "date": "1971-06",
+   "tmax": 21.5,
+   "tmin": 12.8,
+   "af": 0,
+   "rain": 37.5,
+   "sunHours": 228.1
+  },
+  {
+   "date": "1971-07",
+   "tmax": 19.1,
+   "tmin": 11.8,
+   "af": 0,
+   "rain": 110.1,
+   "sunHours": 139.7
+  },
+  {
+   "date": "1971-08",
+   "tmax": 18.7,
+   "tmin": 10.1,
+   "af": 0,
+   "rain": 21.3,
+   "sunHours": 155.7
+  },
+  {
+   "date": "1971-09",
+   "tmax": 15.2,
+   "tmin": 8.4,
+   "af": 0,
+   "rain": 69.1,
+   "sunHours": 131.3
+  },
+  {
+   "date": "1971-10",
+   "tmax": 9.1,
+   "tmin": 2.9,
+   "af": 11,
+   "rain": 88.1,
+   "sunHours": 85.5
+  },
+  {
+   "date": "1971-11",
+   "tmax": 9,
+   "tmin": 4.4,
+   "af": 3,
+   "rain": 19.2,
+   "sunHours": 27.9
+  },
+  {
+   "date": "1972-00",
+   "tmax": 6.2,
+   "tmin": 1.9,
+   "af": 9,
+   "rain": 67.7,
+   "sunHours": 38.8
+  },
+  {
+   "date": "1972-01",
+   "tmax": 7,
+   "tmin": 2,
+   "af": 2,
+   "rain": 39.6,
+   "sunHours": 54.8
+  },
+  {
+   "date": "1972-02",
+   "tmax": 10.1,
+   "tmin": 2.9,
+   "af": 1,
+   "rain": 86.8,
+   "sunHours": 136.7
+  },
+  {
+   "date": "1972-03",
+   "tmax": 11.4,
+   "tmin": 5.2,
+   "af": 0,
+   "rain": 74.2,
+   "sunHours": 110.2
+  },
+  {
+   "date": "1972-04",
+   "tmax": 14,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": 65.4,
+   "sunHours": 130.5
+  },
+  {
+   "date": "1972-05",
+   "tmax": 15,
+   "tmin": 8.4,
+   "af": 0,
+   "rain": 117.6,
+   "sunHours": 133.1
+  },
+  {
+   "date": "1972-06",
+   "tmax": 19.7,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": 80.9,
+   "sunHours": 184.9
+  },
+  {
+   "date": "1972-07",
+   "tmax": 18.6,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 53.2,
+   "sunHours": 149.4
+  },
+  {
+   "date": "1972-08",
+   "tmax": 15.4,
+   "tmin": 8.1,
+   "af": 0,
+   "rain": 36.3,
+   "sunHours": 116.9
+  },
+  {
+   "date": "1972-09",
+   "tmax": 14.3,
+   "tmin": 7.6,
+   "af": 0,
+   "rain": 39.3,
+   "sunHours": 106.4
+  },
+  {
+   "date": "1972-10",
+   "tmax": 9.1,
+   "tmin": 3.5,
+   "af": 7,
+   "rain": 102.1,
+   "sunHours": 63.5
+  },
+  {
+   "date": "1972-11",
+   "tmax": 8.7,
+   "tmin": 2.9,
+   "af": 5,
+   "rain": 71.2,
+   "sunHours": 55.5
+  },
+  {
+   "date": "1973-00",
+   "tmax": 6.7,
+   "tmin": 2.2,
+   "af": 6,
+   "rain": 40.5,
+   "sunHours": 38.4
+  },
+  {
+   "date": "1973-01",
+   "tmax": 7.3,
+   "tmin": 1.7,
+   "af": 11,
+   "rain": 55.3,
+   "sunHours": 71.2
+  },
+  {
+   "date": "1973-02",
+   "tmax": 10.2,
+   "tmin": 2.7,
+   "af": 4,
+   "rain": 37.4,
+   "sunHours": 128.7
+  },
+  {
+   "date": "1973-03",
+   "tmax": 10.4,
+   "tmin": 3.2,
+   "af": 3,
+   "rain": 54.2,
+   "sunHours": 148.8
+  },
+  {
+   "date": "1973-04",
+   "tmax": 15.4,
+   "tmin": 7.8,
+   "af": 0,
+   "rain": 85.2,
+   "sunHours": 167.3
+  },
+  {
+   "date": "1973-05",
+   "tmax": 19.7,
+   "tmin": 10.7,
+   "af": 0,
+   "rain": 27.3,
+   "sunHours": 184.8
+  },
+  {
+   "date": "1973-06",
+   "tmax": 19.4,
+   "tmin": 12.2,
+   "af": 0,
+   "rain": 187.3,
+   "sunHours": 151
+  },
+  {
+   "date": "1973-07",
+   "tmax": 20.6,
+   "tmin": 12.4,
+   "af": 0,
+   "rain": 92,
+   "sunHours": 203.7
+  },
+  {
+   "date": "1973-08",
+   "tmax": 17.7,
+   "tmin": 10.9,
+   "af": 0,
+   "rain": 73.4,
+   "sunHours": 123.7
+  },
+  {
+   "date": "1973-09",
+   "tmax": 12.6,
+   "tmin": 6.1,
+   "af": 1,
+   "rain": 64.9,
+   "sunHours": 89.3
+  },
+  {
+   "date": "1973-10",
+   "tmax": 8.8,
+   "tmin": 3.4,
+   "af": 7,
+   "rain": 57.2,
+   "sunHours": 78.6
+  },
+  {
+   "date": "1973-11",
+   "tmax": 7.7,
+   "tmin": 2.1,
+   "af": 10,
+   "rain": 91,
+   "sunHours": 48
+  },
+  {
+   "date": "1974-00",
+   "tmax": 8.7,
+   "tmin": 3.2,
+   "af": 3,
+   "rain": 69.4,
+   "sunHours": 48.9
+  },
+  {
+   "date": "1974-01",
+   "tmax": 8.1,
+   "tmin": 3,
+   "af": 1,
+   "rain": 74.2,
+   "sunHours": 56.5
+  },
+  {
+   "date": "1974-02",
+   "tmax": 9.4,
+   "tmin": 2.6,
+   "af": 5,
+   "rain": 41.8,
+   "sunHours": 111
+  },
+  {
+   "date": "1974-03",
+   "tmax": 13.2,
+   "tmin": 4.5,
+   "af": 0,
+   "rain": 4.4,
+   "sunHours": 172.6
+  },
+  {
+   "date": "1974-04",
+   "tmax": 15.1,
+   "tmin": 7.4,
+   "af": 0,
+   "rain": 57.6,
+   "sunHours": 187
+  },
+  {
+   "date": "1974-05",
+   "tmax": 17.8,
+   "tmin": 9.9,
+   "af": 0,
+   "rain": 44.6,
+   "sunHours": 196.9
+  },
+  {
+   "date": "1974-06",
+   "tmax": 18,
+   "tmin": 11.4,
+   "af": 0,
+   "rain": 129.2,
+   "sunHours": 142
+  },
+  {
+   "date": "1974-07",
+   "tmax": 19,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 81.9,
+   "sunHours": 170.9
+  },
+  {
+   "date": "1974-08",
+   "tmax": 15.2,
+   "tmin": 8.7,
+   "af": 0,
+   "rain": 94.8,
+   "sunHours": 125.8
+  },
+  {
+   "date": "1974-09",
+   "tmax": 10.2,
+   "tmin": 5,
+   "af": 1,
+   "rain": 91.1,
+   "sunHours": 82.9
+  },
+  {
+   "date": "1974-10",
+   "tmax": 9,
+   "tmin": 3.9,
+   "af": 0,
+   "rain": 80.1,
+   "sunHours": 37.8
+  },
+  {
+   "date": "1974-11",
+   "tmax": 10.5,
+   "tmin": 5.4,
+   "af": 2,
+   "rain": 61.5,
+   "sunHours": 32.2
+  },
+  {
+   "date": "1975-00",
+   "tmax": 9.4,
+   "tmin": 4.1,
+   "af": 2,
+   "rain": 102.8,
+   "sunHours": 27
+  },
+  {
+   "date": "1975-01",
+   "tmax": 7.7,
+   "tmin": 1.1,
+   "af": 9,
+   "rain": 32.1,
+   "sunHours": 90.4
+  },
+  {
+   "date": "1975-02",
+   "tmax": 7.7,
+   "tmin": 1.8,
+   "af": 6,
+   "rain": 45.2,
+   "sunHours": 106
+  },
+  {
+   "date": "1975-03",
+   "tmax": 11.5,
+   "tmin": 4.6,
+   "af": 5,
+   "rain": 68.4,
+   "sunHours": 108.5
+  },
+  {
+   "date": "1975-04",
+   "tmax": 14,
+   "tmin": 6.1,
+   "af": 0,
+   "rain": 34.3,
+   "sunHours": 213.6
+  },
+  {
+   "date": "1975-05",
+   "tmax": 19.4,
+   "tmin": 9.8,
+   "af": 0,
+   "rain": 21.8,
+   "sunHours": 272.6
+  },
+  {
+   "date": "1975-06",
+   "tmax": 21.1,
+   "tmin": 13,
+   "af": 0,
+   "rain": 54.5,
+   "sunHours": 202.1
+  },
+  {
+   "date": "1975-07",
+   "tmax": 23.2,
+   "tmin": 13.8,
+   "af": 0,
+   "rain": 37.5,
+   "sunHours": 224.1
+  },
+  {
+   "date": "1975-08",
+   "tmax": 16.8,
+   "tmin": 9.1,
+   "af": 0,
+   "rain": 98.6,
+   "sunHours": 151.8
+  },
+  {
+   "date": "1975-09",
+   "tmax": 13.5,
+   "tmin": 6.8,
+   "af": 0,
+   "rain": 30.6,
+   "sunHours": 114.2
+  },
+  {
+   "date": "1975-10",
+   "tmax": 9.3,
+   "tmin": 3,
+   "af": 5,
+   "rain": 58.4,
+   "sunHours": 84
+  },
+  {
+   "date": "1975-11",
+   "tmax": 7.6,
+   "tmin": 3.2,
+   "af": 6,
+   "rain": 62,
+   "sunHours": 38.6
+  },
+  {
+   "date": "1976-00",
+   "tmax": 8.2,
+   "tmin": 3.6,
+   "af": 6,
+   "rain": 91.1,
+   "sunHours": 37.6
+  },
+  {
+   "date": "1976-01",
+   "tmax": 7.4,
+   "tmin": 2.5,
+   "af": 6,
+   "rain": 39,
+   "sunHours": 60.2
+  },
+  {
+   "date": "1976-02",
+   "tmax": 8.2,
+   "tmin": 1.7,
+   "af": 9,
+   "rain": 54.4,
+   "sunHours": 122
+  },
+  {
+   "date": "1976-03",
+   "tmax": 11.9,
+   "tmin": 4.6,
+   "af": 1,
+   "rain": 23,
+   "sunHours": 152.7
+  },
+  {
+   "date": "1976-04",
+   "tmax": 15.5,
+   "tmin": 8.1,
+   "af": 0,
+   "rain": 96.8,
+   "sunHours": 138.1
+  },
+  {
+   "date": "1976-05",
+   "tmax": 21.3,
+   "tmin": 12,
+   "af": 0,
+   "rain": 21.8,
+   "sunHours": 221.7
+  },
+  {
+   "date": "1976-06",
+   "tmax": 22.9,
+   "tmin": 13.7,
+   "af": 0,
+   "rain": 32.8,
+   "sunHours": 259.7
+  },
+  {
+   "date": "1976-07",
+   "tmax": 23.2,
+   "tmin": 12.5,
+   "af": 0,
+   "rain": 7.4,
+   "sunHours": 262.2
+  },
+  {
+   "date": "1976-08",
+   "tmax": 16.7,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": 111.9,
+   "sunHours": 96.8
+  },
+  {
+   "date": "1976-09",
+   "tmax": 13.4,
+   "tmin": 7.9,
+   "af": 0,
+   "rain": 83,
+   "sunHours": 70
+  },
+  {
+   "date": "1976-10",
+   "tmax": 8.7,
+   "tmin": 3.3,
+   "af": 4,
+   "rain": 43.7,
+   "sunHours": 73
+  },
+  {
+   "date": "1976-11",
+   "tmax": 4,
+   "tmin": 0.1,
+   "af": 13,
+   "rain": 66.8,
+   "sunHours": 41.7
+  },
+  {
+   "date": "1977-00",
+   "tmax": 5.2,
+   "tmin": 0.3,
+   "af": 16,
+   "rain": 61.6,
+   "sunHours": 49.5
+  },
+  {
+   "date": "1977-01",
+   "tmax": 7.3,
+   "tmin": 2.3,
+   "af": 4,
+   "rain": 160.6,
+   "sunHours": 48.2
+  },
+  {
+   "date": "1977-02",
+   "tmax": 10.1,
+   "tmin": 4,
+   "af": 3,
+   "rain": 48.7,
+   "sunHours": 89.4
+  },
+  {
+   "date": "1977-03",
+   "tmax": 10.2,
+   "tmin": 3.8,
+   "af": 2,
+   "rain": 55.6,
+   "sunHours": 146.1
+  },
+  {
+   "date": "1977-04",
+   "tmax": 15.2,
+   "tmin": 6.5,
+   "af": 0,
+   "rain": 39.4,
+   "sunHours": 245.8
+  },
+  {
+   "date": "1977-05",
+   "tmax": 16.7,
+   "tmin": 8.6,
+   "af": 0,
+   "rain": 107,
+   "sunHours": 206.7
+  },
+  {
+   "date": "1977-06",
+   "tmax": 19.6,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": 37,
+   "sunHours": 190.6
+  },
+  {
+   "date": "1977-07",
+   "tmax": 19.3,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": 45.5,
+   "sunHours": 148.2
+  },
+  {
+   "date": "1977-08",
+   "tmax": 16,
+   "tmin": 10,
+   "af": 0,
+   "rain": 64.4,
+   "sunHours": 102.5
+  },
+  {
+   "date": "1977-09",
+   "tmax": 14.9,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": 60.8,
+   "sunHours": 115.3
+  },
+  {
+   "date": "1977-10",
+   "tmax": 8.6,
+   "tmin": 3,
+   "af": 5,
+   "rain": 107.3,
+   "sunHours": 77.2
+  },
+  {
+   "date": "1977-11",
+   "tmax": 8.1,
+   "tmin": 4,
+   "af": 1,
+   "rain": 47.9,
+   "sunHours": 44.5
+  },
+  {
+   "date": "1978-00",
+   "tmax": 5.5,
+   "tmin": 1.2,
+   "af": 8,
+   "rain": 85.3,
+   "sunHours": 37.6
+  },
+  {
+   "date": "1978-01",
+   "tmax": 5.4,
+   "tmin": 0.4,
+   "af": 15,
+   "rain": 42.3,
+   "sunHours": 54.6
+  },
+  {
+   "date": "1978-02",
+   "tmax": 9.9,
+   "tmin": 3.3,
+   "af": 2,
+   "rain": 64.2,
+   "sunHours": 106.7
+  },
+  {
+   "date": "1978-03",
+   "tmax": 10.1,
+   "tmin": 3.6,
+   "af": 5,
+   "rain": 28.5,
+   "sunHours": 115.2
+  },
+  {
+   "date": "1978-04",
+   "tmax": 16.7,
+   "tmin": 7.9,
+   "af": 0,
+   "rain": 33.3,
+   "sunHours": 202.3
+  },
+  {
+   "date": "1978-05",
+   "tmax": 16.8,
+   "tmin": 10.1,
+   "af": 0,
+   "rain": 64.9,
+   "sunHours": 156.1
+  },
+  {
+   "date": "1978-06",
+   "tmax": 17.7,
+   "tmin": 11,
+   "af": 0,
+   "rain": 56,
+   "sunHours": 147.4
+  },
+  {
+   "date": "1978-07",
+   "tmax": 17.8,
+   "tmin": 12,
+   "af": 0,
+   "rain": 71.9,
+   "sunHours": 112.8
+  },
+  {
+   "date": "1978-08",
+   "tmax": 16.8,
+   "tmin": 10.5,
+   "af": 0,
+   "rain": 97.8,
+   "sunHours": 82.8
+  },
+  {
+   "date": "1978-09",
+   "tmax": 14.8,
+   "tmin": 9.1,
+   "af": 0,
+   "rain": 24.7,
+   "sunHours": 73.3
+  },
+  {
+   "date": "1978-10",
+   "tmax": 11.1,
+   "tmin": 5.4,
+   "af": 5,
+   "rain": 65.9,
+   "sunHours": 74.9
+  },
+  {
+   "date": "1978-11",
+   "tmax": 6.2,
+   "tmin": 1.1,
+   "af": 11,
+   "rain": 118.3,
+   "sunHours": 35.9
+  },
+  {
+   "date": "1979-00",
+   "tmax": 2.7,
+   "tmin": -2.9,
+   "af": 25,
+   "rain": 61,
+   "sunHours": 59.9
+  },
+  {
+   "date": "1979-01",
+   "tmax": 3.9,
+   "tmin": -0.7,
+   "af": 15,
+   "rain": 23.6,
+   "sunHours": 67.1
+  },
+  {
+   "date": "1979-02",
+   "tmax": 7.4,
+   "tmin": 1.9,
+   "af": 3,
+   "rain": 70,
+   "sunHours": 72.6
+  },
+  {
+   "date": "1979-03",
+   "tmax": 11.1,
+   "tmin": 4.4,
+   "af": 2,
+   "rain": 47.8,
+   "sunHours": 99.3
+  },
+  {
+   "date": "1979-04",
+   "tmax": 13.4,
+   "tmin": 5.9,
+   "af": 2,
+   "rain": 107.4,
+   "sunHours": 186.7
+  },
+  {
+   "date": "1979-05",
+   "tmax": 18.2,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": 32.1,
+   "sunHours": 164.1
+  },
+  {
+   "date": "1979-06",
+   "tmax": 19.4,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": 28.4,
+   "sunHours": 143.7
+  },
+  {
+   "date": "1979-07",
+   "tmax": 18.4,
+   "tmin": 11.4,
+   "af": 0,
+   "rain": 103.6,
+   "sunHours": 156.5
+  },
+  {
+   "date": "1979-08",
+   "tmax": 16.8,
+   "tmin": 9.4,
+   "af": 0,
+   "rain": 43.3,
+   "sunHours": 147.5
+  },
+  {
+   "date": "1979-09",
+   "tmax": 14.6,
+   "tmin": 8.6,
+   "af": 0,
+   "rain": 52.5,
+   "sunHours": 92.8
+  },
+  {
+   "date": "1979-10",
+   "tmax": 9.7,
+   "tmin": 3.3,
+   "af": 7,
+   "rain": 101.9,
+   "sunHours": 49.2
+  },
+  {
+   "date": "1979-11",
+   "tmax": 7.7,
+   "tmin": 3.3,
+   "af": 5,
+   "rain": 152.4,
+   "sunHours": 51.4
+  },
+  {
+   "date": "1980-00",
+   "tmax": 4.8,
+   "tmin": -0.2,
+   "af": 13,
+   "rain": 77.9,
+   "sunHours": 54.9
+  },
+  {
+   "date": "1980-01",
+   "tmax": 8.3,
+   "tmin": 3,
+   "af": 6,
+   "rain": 104.2,
+   "sunHours": 33.7
+  },
+  {
+   "date": "1980-02",
+   "tmax": 7.5,
+   "tmin": 2,
+   "af": 7,
+   "rain": 69.8,
+   "sunHours": 98.9
+  },
+  {
+   "date": "1980-03",
+   "tmax": 13.2,
+   "tmin": 5.1,
+   "af": 1,
+   "rain": 3.7,
+   "sunHours": 167.6
+  },
+  {
+   "date": "1980-04",
+   "tmax": 16.6,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": 17.6,
+   "sunHours": 241.9
+  },
+  {
+   "date": "1980-05",
+   "tmax": 17.3,
+   "tmin": 10.5,
+   "af": 0,
+   "rain": 109.2,
+   "sunHours": 134.4
+  },
+  {
+   "date": "1980-06",
+   "tmax": 18.3,
+   "tmin": 11.4,
+   "af": 0,
+   "rain": 51.2,
+   "sunHours": 136.2
+  },
+  {
+   "date": "1980-07",
+   "tmax": 19.1,
+   "tmin": 12.5,
+   "af": 0,
+   "rain": 91.4,
+   "sunHours": 129.5
+  },
+  {
+   "date": "1980-08",
+   "tmax": 17.9,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 49.6,
+   "sunHours": 134.2
+  },
+  {
+   "date": "1980-09",
+   "tmax": 12,
+   "tmin": 6.1,
+   "af": 0,
+   "rain": 138.3,
+   "sunHours": 93
+  },
+  {
+   "date": "1980-10",
+   "tmax": 9.1,
+   "tmin": 4.2,
+   "af": 6,
+   "rain": 89,
+   "sunHours": 57.4
+  },
+  {
+   "date": "1980-11",
+   "tmax": 8.5,
+   "tmin": 2.6,
+   "af": 7,
+   "rain": 71.3,
+   "sunHours": 53.2
+  },
+  {
+   "date": "1981-00",
+   "tmax": 7.2,
+   "tmin": 1.7,
+   "af": 10,
+   "rain": 81.6,
+   "sunHours": 38.4
+  },
+  {
+   "date": "1981-01",
+   "tmax": 6,
+   "tmin": 0.5,
+   "af": 18,
+   "rain": 54.2,
+   "sunHours": 68.2
+  },
+  {
+   "date": "1981-02",
+   "tmax": 10.7,
+   "tmin": 5.1,
+   "af": 0,
+   "rain": 139.3,
+   "sunHours": 68.5
+  },
+  {
+   "date": "1981-03",
+   "tmax": 11.5,
+   "tmin": 4.7,
+   "af": 1,
+   "rain": 35.9,
+   "sunHours": 136.9
+  },
+  {
+   "date": "1981-04",
+   "tmax": 15.5,
+   "tmin": 8.1,
+   "af": 0,
+   "rain": 47.7,
+   "sunHours": 149.5
+  },
+  {
+   "date": "1981-05",
+   "tmax": 16.6,
+   "tmin": 9.9,
+   "af": 0,
+   "rain": 38.2,
+   "sunHours": 133.8
+  },
+  {
+   "date": "1981-06",
+   "tmax": 18.4,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": 44.3,
+   "sunHours": 118.5
+  },
+  {
+   "date": "1981-07",
+   "tmax": 20,
+   "tmin": 12.3,
+   "af": 0,
+   "rain": 139.9,
+   "sunHours": 178.2
+  },
+  {
+   "date": "1981-08",
+   "tmax": 18.1,
+   "tmin": 10.8,
+   "af": 0,
+   "rain": 109.7,
+   "sunHours": 160.5
+  },
+  {
+   "date": "1981-09",
+   "tmax": 11.2,
+   "tmin": 4.6,
+   "af": 1,
+   "rain": 159.1,
+   "sunHours": 115.9
+  },
+  {
+   "date": "1981-10",
+   "tmax": 10.3,
+   "tmin": 4.8,
+   "af": 1,
+   "rain": 118,
+   "sunHours": 35.7
+  },
+  {
+   "date": "1981-11",
+   "tmax": 3.2,
+   "tmin": -2,
+   "af": 20,
+   "rain": 64.7,
+   "sunHours": 55.8
+  },
+  {
+   "date": "1982-00",
+   "tmax": 6.4,
+   "tmin": 0.2,
+   "af": 14,
+   "rain": 49.4,
+   "sunHours": 62.9
+  },
+  {
+   "date": "1982-01",
+   "tmax": 8,
+   "tmin": 1.9,
+   "af": 6,
+   "rain": 22.3,
+   "sunHours": 65.2
+  },
+  {
+   "date": "1982-02",
+   "tmax": 9.4,
+   "tmin": 2.9,
+   "af": 1,
+   "rain": 89.6,
+   "sunHours": 122.5
+  },
+  {
+   "date": "1982-03",
+   "tmax": 12.9,
+   "tmin": 4.7,
+   "af": 0,
+   "rain": 20.6,
+   "sunHours": 177.7
+  },
+  {
+   "date": "1982-04",
+   "tmax": 16.5,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": 32.9,
+   "sunHours": 217.9
+  },
+  {
+   "date": "1982-05",
+   "tmax": 19.3,
+   "tmin": 11.8,
+   "af": 0,
+   "rain": 113.1,
+   "sunHours": 157.3
+  },
+  {
+   "date": "1982-06",
+   "tmax": 20.9,
+   "tmin": 12.5,
+   "af": 0,
+   "rain": 18.2,
+   "sunHours": 183.9
+  },
+  {
+   "date": "1982-07",
+   "tmax": 18.9,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": 111.3,
+   "sunHours": 145.5
+  },
+  {
+   "date": "1982-08",
+   "tmax": 18,
+   "tmin": 10.5,
+   "af": 0,
+   "rain": 63.2,
+   "sunHours": 133.3
+  },
+  {
+   "date": "1982-09",
+   "tmax": 13.1,
+   "tmin": 7.6,
+   "af": 0,
+   "rain": 60,
+   "sunHours": 80.4
+  },
+  {
+   "date": "1982-10",
+   "tmax": 10.1,
+   "tmin": 5.6,
+   "af": 2,
+   "rain": 95.5,
+   "sunHours": 51.8
+  },
+  {
+   "date": "1982-11",
+   "tmax": 7.1,
+   "tmin": 1.6,
+   "af": 10,
+   "rain": 94.3,
+   "sunHours": 29.6
+  },
+  {
+   "date": "1983-00",
+   "tmax": 9.2,
+   "tmin": 3.6,
+   "af": 2,
+   "rain": 105.6,
+   "sunHours": 38.6
+  },
+  {
+   "date": "1983-01",
+   "tmax": 4.8,
+   "tmin": -0.5,
+   "af": 18,
+   "rain": 32.4,
+   "sunHours": 77.4
+  },
+  {
+   "date": "1983-02",
+   "tmax": 8.8,
+   "tmin": 3.6,
+   "af": 3,
+   "rain": 79.8,
+   "sunHours": 52.5
+  },
+  {
+   "date": "1983-03",
+   "tmax": 10.1,
+   "tmin": 3.1,
+   "af": 0,
+   "rain": 78.1,
+   "sunHours": 121.7
+  },
+  {
+   "date": "1983-04",
+   "tmax": 13.6,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": 110.4,
+   "sunHours": 112.7
+  },
+  {
+   "date": "1983-05",
+   "tmax": 18.1,
+   "tmin": 10.5,
+   "af": 0,
+   "rain": 16,
+   "sunHours": 162
+  },
+  {
+   "date": "1983-06",
+   "tmax": 24.3,
+   "tmin": 14.5,
+   "af": 0,
+   "rain": 66.5,
+   "sunHours": 227.7
+  },
+  {
+   "date": "1983-07",
+   "tmax": 21.8,
+   "tmin": 12.8,
+   "af": 0,
+   "rain": 44.9,
+   "sunHours": 225.2
+  },
+  {
+   "date": "1983-08",
+   "tmax": 16.5,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 95.4,
+   "sunHours": 94
+  },
+  {
+   "date": "1983-09",
+   "tmax": 13.3,
+   "tmin": 7.2,
+   "af": 1,
+   "rain": 88.9,
+   "sunHours": 93.2
+  },
+  {
+   "date": "1983-10",
+   "tmax": 10.3,
+   "tmin": 4.9,
+   "af": 5,
+   "rain": 52.6,
+   "sunHours": 50.7
+  },
+  {
+   "date": "1983-11",
+   "tmax": 8.4,
+   "tmin": 3.5,
+   "af": 5,
+   "rain": 121.9,
+   "sunHours": 45.6
+  },
+  {
+   "date": "1984-00",
+   "tmax": 6.2,
+   "tmin": 0.9,
+   "af": 10,
+   "rain": 112.1,
+   "sunHours": 56.2
+  },
+  {
+   "date": "1984-01",
+   "tmax": 6.5,
+   "tmin": 1,
+   "af": 7,
+   "rain": 51.7,
+   "sunHours": 62
+  },
+  {
+   "date": "1984-02",
+   "tmax": 7.5,
+   "tmin": 2.3,
+   "af": 2,
+   "rain": 41.1,
+   "sunHours": 61.7
+  },
+  {
+   "date": "1984-03",
+   "tmax": 13.5,
+   "tmin": 3.7,
+   "af": 3,
+   "rain": 14.1,
+   "sunHours": 216.4
+  },
+  {
+   "date": "1984-04",
+   "tmax": 15.1,
+   "tmin": 6.2,
+   "af": 0,
+   "rain": 31.4,
+   "sunHours": 193.3
+  },
+  {
+   "date": "1984-05",
+   "tmax": 18.2,
+   "tmin": 10.2,
+   "af": 0,
+   "rain": 29.6,
+   "sunHours": 162.1
+  },
+  {
+   "date": "1984-06",
+   "tmax": 21.8,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": 12.8,
+   "sunHours": 253.5
+  },
+  {
+   "date": "1984-07",
+   "tmax": 22.9,
+   "tmin": 13.1,
+   "af": 0,
+   "rain": 42.6,
+   "sunHours": 209.8
+  },
+  {
+   "date": "1984-08",
+   "tmax": 16.4,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": 139.6,
+   "sunHours": 99.2
+  },
+  {
+   "date": "1984-09",
+   "tmax": 14.2,
+   "tmin": 7.9,
+   "af": 0,
+   "rain": 96.8,
+   "sunHours": 93.7
+  },
+  {
+   "date": "1984-10",
+   "tmax": 10.2,
+   "tmin": 5.5,
+   "af": 2,
+   "rain": 121.1,
+   "sunHours": 48.6
+  },
+  {
+   "date": "1984-11",
+   "tmax": 8,
+   "tmin": 2.7,
+   "af": 4,
+   "rain": 48.8,
+   "sunHours": 59.1
+  },
+  {
+   "date": "1985-00",
+   "tmax": 3.9,
+   "tmin": -1.7,
+   "af": 25,
+   "rain": 55,
+   "sunHours": 48
+  },
+  {
+   "date": "1985-01",
+   "tmax": 5.8,
+   "tmin": 0,
+   "af": 12,
+   "rain": 9.9,
+   "sunHours": 82.3
+  },
+  {
+   "date": "1985-02",
+   "tmax": 8.2,
+   "tmin": 1.2,
+   "af": 12,
+   "rain": 57.2,
+   "sunHours": 110.2
+  },
+  {
+   "date": "1985-03",
+   "tmax": 11.5,
+   "tmin": 5.2,
+   "af": 2,
+   "rain": 77.1,
+   "sunHours": 114
+  },
+  {
+   "date": "1985-04",
+   "tmax": 14.9,
+   "tmin": 7.7,
+   "af": 0,
+   "rain": 72.3,
+   "sunHours": 157.8
+  },
+  {
+   "date": "1985-05",
+   "tmax": 16.5,
+   "tmin": 8.9,
+   "af": 0,
+   "rain": 70.1,
+   "sunHours": 187.7
+  },
+  {
+   "date": "1985-06",
+   "tmax": 19.9,
+   "tmin": 12.8,
+   "af": 0,
+   "rain": 53.8,
+   "sunHours": 167
+  },
+  {
+   "date": "1985-07",
+   "tmax": 17.7,
+   "tmin": 11.6,
+   "af": 0,
+   "rain": 76.2,
+   "sunHours": 126.5
+  },
+  {
+   "date": "1985-08",
+   "tmax": 18.2,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 30.8,
+   "sunHours": 125.7
+  },
+  {
+   "date": "1985-09",
+   "tmax": 14,
+   "tmin": 8.2,
+   "af": 0,
+   "rain": 50.3,
+   "sunHours": 88.4
+  },
+  {
+   "date": "1985-10",
+   "tmax": 6.8,
+   "tmin": 1.3,
+   "af": 10,
+   "rain": 63.8,
+   "sunHours": 79.1
+  },
+  {
+   "date": "1985-11",
+   "tmax": 8.6,
+   "tmin": 3.7,
+   "af": 5,
+   "rain": 83.5,
+   "sunHours": 37
+  },
+  {
+   "date": "1986-00",
+   "tmax": 5.9,
+   "tmin": 0.8,
+   "af": 12,
+   "rain": 82.9,
+   "sunHours": 54.8
+  },
+  {
+   "date": "1986-01",
+   "tmax": 2.1,
+   "tmin": -2.3,
+   "af": 24,
+   "rain": 3.7,
+   "sunHours": 105.1
+  },
+  {
+   "date": "1986-02",
+   "tmax": 8.4,
+   "tmin": 1.9,
+   "af": 7,
+   "rain": 77.5,
+   "sunHours": 103.7
+  },
+  {
+   "date": "1986-03",
+   "tmax": 9.4,
+   "tmin": 2.6,
+   "af": 1,
+   "rain": 67.8,
+   "sunHours": 128.1
+  },
+  {
+   "date": "1986-04",
+   "tmax": 14.9,
+   "tmin": 8,
+   "af": 0,
+   "rain": 69.1,
+   "sunHours": 187.6
+  },
+  {
+   "date": "1986-05",
+   "tmax": 19.4,
+   "tmin": 11,
+   "af": 0,
+   "rain": 51.7,
+   "sunHours": 199.7
+  },
+  {
+   "date": "1986-06",
+   "tmax": 18.5,
+   "tmin": 12.2,
+   "af": 0,
+   "rain": 46,
+   "sunHours": 128
+  },
+  {
+   "date": "1986-07",
+   "tmax": 16.6,
+   "tmin": 10.1,
+   "af": 0,
+   "rain": 84.2,
+   "sunHours": 116.1
+  },
+  {
+   "date": "1986-08",
+   "tmax": 15.4,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": 11.1,
+   "sunHours": 152
+  },
+  {
+   "date": "1986-09",
+   "tmax": 13.9,
+   "tmin": 7.4,
+   "af": 0,
+   "rain": 94.5,
+   "sunHours": 104.6
+  },
+  {
+   "date": "1986-10",
+   "tmax": 10.8,
+   "tmin": 4.4,
+   "af": 1,
+   "rain": 88.5,
+   "sunHours": 79.7
+  },
+  {
+   "date": "1986-11",
+   "tmax": 8.9,
+   "tmin": 3.2,
+   "af": 3,
+   "rain": 156.7,
+   "sunHours": 42.7
+  },
+  {
+   "date": "1987-00",
+   "tmax": 3.7,
+   "tmin": -1,
+   "af": 20,
+   "rain": 23.5,
+   "sunHours": 67.3
+  },
+  {
+   "date": "1987-01",
+   "tmax": 7,
+   "tmin": 0.9,
+   "af": 12,
+   "rain": 34.3,
+   "sunHours": 65.4
+  },
+  {
+   "date": "1987-02",
+   "tmax": 7.4,
+   "tmin": 1.4,
+   "af": 12,
+   "rain": 73.3,
+   "sunHours": 103.8
+  },
+  {
+   "date": "1987-03",
+   "tmax": 14.4,
+   "tmin": 6.7,
+   "af": 0,
+   "rain": 54.2,
+   "sunHours": 152.5
+  },
+  {
+   "date": "1987-04",
+   "tmax": 14.2,
+   "tmin": 6.4,
+   "af": 0,
+   "rain": 50.5,
+   "sunHours": 191
+  },
+  {
+   "date": "1987-05",
+   "tmax": 15.8,
+   "tmin": 9.3,
+   "af": 0,
+   "rain": 174.3,
+   "sunHours": 102.8
+  },
+  {
+   "date": "1987-06",
+   "tmax": 19.1,
+   "tmin": 12.6,
+   "af": 0,
+   "rain": 86.1,
+   "sunHours": 157.2
+  },
+  {
+   "date": "1987-07",
+   "tmax": 18.6,
+   "tmin": 12.3,
+   "af": 0,
+   "rain": 85.6,
+   "sunHours": 135.8
+  },
+  {
+   "date": "1987-08",
+   "tmax": 16.9,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": 77.4,
+   "sunHours": 158.5
+  },
+  {
+   "date": "1987-09",
+   "tmax": 12.8,
+   "tmin": 6.6,
+   "af": 0,
+   "rain": 134.6,
+   "sunHours": 110.2
+  },
+  {
+   "date": "1987-10",
+   "tmax": 8.9,
+   "tmin": 4.3,
+   "af": 3,
+   "rain": 58.9,
+   "sunHours": 40.3
+  },
+  {
+   "date": "1987-11",
+   "tmax": 8.4,
+   "tmin": 3.6,
+   "af": 7,
+   "rain": 44.5,
+   "sunHours": 44.2
+  },
+  {
+   "date": "1988-00",
+   "tmax": 7.8,
+   "tmin": 2.8,
+   "af": 0,
+   "rain": 114.5,
+   "sunHours": 52.5
+  },
+  {
+   "date": "1988-01",
+   "tmax": 7.4,
+   "tmin": 1.8,
+   "af": 6,
+   "rain": 32,
+   "sunHours": 73
+  },
+  {
+   "date": "1988-02",
+   "tmax": 9,
+   "tmin": 2.8,
+   "af": 5,
+   "rain": 125.2,
+   "sunHours": 84
+  },
+  {
+   "date": "1988-03",
+   "tmax": 12.1,
+   "tmin": 4.9,
+   "af": 2,
+   "rain": 39,
+   "sunHours": 121.2
+  },
+  {
+   "date": "1988-04",
+   "tmax": 16.6,
+   "tmin": 7.5,
+   "af": 0,
+   "rain": 46.6,
+   "sunHours": 210.2
+  },
+  {
+   "date": "1988-05",
+   "tmax": 19.2,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": 60.8,
+   "sunHours": 174.4
+  },
+  {
+   "date": "1988-06",
+   "tmax": 17.8,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": 134.3,
+   "sunHours": 123.7
+  },
+  {
+   "date": "1988-07",
+   "tmax": 18.8,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": 105.7,
+   "sunHours": 153.9
+  },
+  {
+   "date": "1988-08",
+   "tmax": 15.9,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": 59.4,
+   "sunHours": 114.6
+  },
+  {
+   "date": "1988-09",
+   "tmax": 13.6,
+   "tmin": 7.1,
+   "af": 3,
+   "rain": 65.7,
+   "sunHours": 109.2
+  },
+  {
+   "date": "1988-10",
+   "tmax": 8.7,
+   "tmin": 1.7,
+   "af": 10,
+   "rain": 51,
+   "sunHours": 87.1
+  },
+  {
+   "date": "1988-11",
+   "tmax": 9.8,
+   "tmin": 4.5,
+   "af": 1,
+   "rain": 51.5,
+   "sunHours": 33
+  },
+  {
+   "date": "1989-00",
+   "tmax": 9.1,
+   "tmin": 3.5,
+   "af": 4,
+   "rain": 35.3,
+   "sunHours": 62.3
+  },
+  {
+   "date": "1989-01",
+   "tmax": 9.2,
+   "tmin": 2.6,
+   "af": 7,
+   "rain": 80.5,
+   "sunHours": 94.9
+  },
+  {
+   "date": "1989-02",
+   "tmax": 10.8,
+   "tmin": 3.3,
+   "af": 5,
+   "rain": 65.6,
+   "sunHours": 86
+  },
+  {
+   "date": "1989-03",
+   "tmax": 10,
+   "tmin": 2.8,
+   "af": 7,
+   "rain": 76.5,
+   "sunHours": 126
+  },
+  {
+   "date": "1989-04",
+   "tmax": 17.7,
+   "tmin": 8.1,
+   "af": 0,
+   "rain": 31.7,
+   "sunHours": 257.9
+  },
+  {
+   "date": "1989-05",
+   "tmax": 19.4,
+   "tmin": 9.8,
+   "af": 0,
+   "rain": 81.5,
+   "sunHours": 244.4
+  },
+  {
+   "date": "1989-06",
+   "tmax": 22.2,
+   "tmin": 13.3,
+   "af": 0,
+   "rain": 36.3,
+   "sunHours": 243.5
+  },
+  {
+   "date": "1989-07",
+   "tmax": 20.1,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 58.9,
+   "sunHours": 188.9
+  },
+  {
+   "date": "1989-08",
+   "tmax": 18.1,
+   "tmin": 10.2,
+   "af": 0,
+   "rain": 31.4,
+   "sunHours": 127.8
+  },
+  {
+   "date": "1989-09",
+   "tmax": 14.5,
+   "tmin": 8.3,
+   "af": 0,
+   "rain": 84.1,
+   "sunHours": 85.4
+  },
+  {
+   "date": "1989-10",
+   "tmax": 9.7,
+   "tmin": 3.1,
+   "af": 10,
+   "rain": 62.8,
+   "sunHours": 70
+  },
+  {
+   "date": "1989-11",
+   "tmax": 7.1,
+   "tmin": 1.2,
+   "af": 10,
+   "rain": 70.3,
+   "sunHours": 34.8
+  },
+  {
+   "date": "1990-00",
+   "tmax": 9.3,
+   "tmin": 3.6,
+   "af": 2,
+   "rain": 116.1,
+   "sunHours": 60.1
+  },
+  {
+   "date": "1990-01",
+   "tmax": 10.1,
+   "tmin": 4.3,
+   "af": 1,
+   "rain": 82.3,
+   "sunHours": 56.8
+  },
+  {
+   "date": "1990-02",
+   "tmax": 11.7,
+   "tmin": 4.7,
+   "af": 3,
+   "rain": 27.4,
+   "sunHours": 107.7
+  },
+  {
+   "date": "1990-03",
+   "tmax": 12.4,
+   "tmin": 3.6,
+   "af": 5,
+   "rain": 36.6,
+   "sunHours": 178.1
+  },
+  {
+   "date": "1990-04",
+   "tmax": 17.7,
+   "tmin": 7.9,
+   "af": 0,
+   "rain": 24.9,
+   "sunHours": 228
+  },
+  {
+   "date": "1990-05",
+   "tmax": 17,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 83.7,
+   "sunHours": 105.5
+  },
+  {
+   "date": "1990-06",
+   "tmax": 21.3,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": 24.7,
+   "sunHours": 261.3
+  },
+  {
+   "date": "1990-07",
+   "tmax": 21.9,
+   "tmin": 13.3,
+   "af": 0,
+   "rain": 71.5,
+   "sunHours": 158.1
+  },
+  {
+   "date": "1990-08",
+   "tmax": 16.2,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": 68.3,
+   "sunHours": 130
+  },
+  {
+   "date": "1990-09",
+   "tmax": 14.5,
+   "tmin": 8.7,
+   "af": 0,
+   "rain": 110.7,
+   "sunHours": 78.4
+  },
+  {
+   "date": "1990-10",
+   "tmax": 9.3,
+   "tmin": 4,
+   "af": 4,
+   "rain": 64.8,
+   "sunHours": 41
+  },
+  {
+   "date": "1990-11",
+   "tmax": 6.7,
+   "tmin": 1.1,
+   "af": 9,
+   "rain": 89,
+   "sunHours": 33.3
+  },
+  {
+   "date": "1991-00",
+   "tmax": 6,
+   "tmin": -0.5,
+   "af": 17,
+   "rain": 53.4,
+   "sunHours": 74.1
+  },
+  {
+   "date": "1991-01",
+   "tmax": 5.7,
+   "tmin": -1.5,
+   "af": 19,
+   "rain": 28.7,
+   "sunHours": 72.2
+  },
+  {
+   "date": "1991-02",
+   "tmax": 11.3,
+   "tmin": 4.6,
+   "af": 2,
+   "rain": 54.4,
+   "sunHours": 61.9
+  },
+  {
+   "date": "1991-03",
+   "tmax": 11.9,
+   "tmin": 4.2,
+   "af": 1,
+   "rain": 31.9,
+   "sunHours": 151.6
+  },
+  {
+   "date": "1991-04",
+   "tmax": 14.8,
+   "tmin": 7.1,
+   "af": 0,
+   "rain": 8.3,
+   "sunHours": 111.4
+  },
+  {
+   "date": "1991-05",
+   "tmax": 15.6,
+   "tmin": 8,
+   "af": 0,
+   "rain": 69.1,
+   "sunHours": 138.7
+  },
+  {
+   "date": "1991-06",
+   "tmax": 21.6,
+   "tmin": 13.6,
+   "af": 0,
+   "rain": 48.7,
+   "sunHours": 174.5
+  },
+  {
+   "date": "1991-07",
+   "tmax": 21.4,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": 27.3,
+   "sunHours": 186.7
+  },
+  {
+   "date": "1991-08",
+   "tmax": 19.5,
+   "tmin": 9.9,
+   "af": 0,
+   "rain": 53.3,
+   "sunHours": 182.1
+  },
+  {
+   "date": "1991-09",
+   "tmax": 13.4,
+   "tmin": 7.4,
+   "af": 1,
+   "rain": 70,
+   "sunHours": 88.3
+  },
+  {
+   "date": "1991-10",
+   "tmax": 9.7,
+   "tmin": 3.6,
+   "af": 3,
+   "rain": 70.4,
+   "sunHours": 54.3
+  },
+  {
+   "date": "1991-11",
+   "tmax": 8.1,
+   "tmin": 2.4,
+   "af": 7,
+   "rain": 63.4,
+   "sunHours": 39.9
+  },
+  {
+   "date": "1992-00",
+   "tmax": 6.2,
+   "tmin": 0.7,
+   "af": 15,
+   "rain": 45.5,
+   "sunHours": 46.7
+  },
+  {
+   "date": "1992-01",
+   "tmax": 9,
+   "tmin": 2.5,
+   "af": 4,
+   "rain": 50.7,
+   "sunHours": 70.8
+  },
+  {
+   "date": "1992-02",
+   "tmax": 10.4,
+   "tmin": 4.3,
+   "af": 1,
+   "rain": 85.4,
+   "sunHours": 69.7
+  },
+  {
+   "date": "1992-03",
+   "tmax": 12.3,
+   "tmin": 4.8,
+   "af": 1,
+   "rain": 53.2,
+   "sunHours": 114.7
+  },
+  {
+   "date": "1992-04",
+   "tmax": 18.7,
+   "tmin": 8.8,
+   "af": 0,
+   "rain": 56.9,
+   "sunHours": 254.6
+  },
+  {
+   "date": "1992-05",
+   "tmax": 20.8,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": 32.2,
+   "sunHours": 219.5
+  },
+  {
+   "date": "1992-06",
+   "tmax": 19.6,
+   "tmin": 12.1,
+   "af": 0,
+   "rain": 62.9,
+   "sunHours": 162.1
+  },
+  {
+   "date": "1992-07",
+   "tmax": 18.7,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": 96,
+   "sunHours": 166.1
+  },
+  {
+   "date": "1992-08",
+   "tmax": 16.7,
+   "tmin": 9.9,
+   "af": 0,
+   "rain": 60.7,
+   "sunHours": 115.6
+  },
+  {
+   "date": "1992-09",
+   "tmax": 10.6,
+   "tmin": 4.5,
+   "af": 7,
+   "rain": 120.8,
+   "sunHours": 71.7
+  },
+  {
+   "date": "1992-10",
+   "tmax": 10.3,
+   "tmin": 3.6,
+   "af": 3,
+   "rain": 120.3,
+   "sunHours": 54.8
+  },
+  {
+   "date": "1992-11",
+   "tmax": 6.2,
+   "tmin": 0,
+   "af": 13,
+   "rain": 71.7,
+   "sunHours": 46.4
+  },
+  {
+   "date": "1993-00",
+   "tmax": 8.8,
+   "tmin": 2.2,
+   "af": 4,
+   "rain": 78.8,
+   "sunHours": 49.1
+  },
+  {
+   "date": "1993-01",
+   "tmax": 7.5,
+   "tmin": 2.3,
+   "af": 5,
+   "rain": 13,
+   "sunHours": 54.5
+  },
+  {
+   "date": "1993-02",
+   "tmax": 10.1,
+   "tmin": 3.4,
+   "af": 5,
+   "rain": 10.5,
+   "sunHours": 101.8
+  },
+  {
+   "date": "1993-03",
+   "tmax": 13.6,
+   "tmin": 5.9,
+   "af": 0,
+   "rain": 68.4,
+   "sunHours": 134.7
+  },
+  {
+   "date": "1993-04",
+   "tmax": 15.5,
+   "tmin": 7.1,
+   "af": 1,
+   "rain": 61.9,
+   "sunHours": 153.1
+  },
+  {
+   "date": "1993-05",
+   "tmax": 19.1,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": 58,
+   "sunHours": 197.1
+  },
+  {
+   "date": "1993-06",
+   "tmax": 18.2,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": 102.6,
+   "sunHours": 133
+  },
+  {
+   "date": "1993-07",
+   "tmax": 18,
+   "tmin": 9.9,
+   "af": 0,
+   "rain": 79,
+   "sunHours": 146.3
+  },
+  {
+   "date": "1993-08",
+   "tmax": 16.1,
+   "tmin": 8.9,
+   "af": 0,
+   "rain": 54.7,
+   "sunHours": 92.1
+  },
+  {
+   "date": "1993-09",
+   "tmax": 11.8,
+   "tmin": 4.6,
+   "af": 4,
+   "rain": 53.2,
+   "sunHours": 120.5
+  },
+  {
+   "date": "1993-10",
+   "tmax": 7.5,
+   "tmin": 1.1,
+   "af": 12,
+   "rain": 41.2,
+   "sunHours": 53.6
+  },
+  {
+   "date": "1993-11",
+   "tmax": 7.6,
+   "tmin": 1.8,
+   "af": 8,
+   "rain": 163.9,
+   "sunHours": 37.9
+  },
+  {
+   "date": "1994-00",
+   "tmax": 7.7,
+   "tmin": 1.8,
+   "af": 6,
+   "rain": 90.8,
+   "sunHours": 53.2
+  },
+  {
+   "date": "1994-01",
+   "tmax": 5.8,
+   "tmin": 0.3,
+   "af": 13,
+   "rain": 39.7,
+   "sunHours": 54.6
+  },
+  {
+   "date": "1994-02",
+   "tmax": 10.5,
+   "tmin": 3.8,
+   "af": 3,
+   "rain": 98.5,
+   "sunHours": 95.2
+  },
+  {
+   "date": "1994-03",
+   "tmax": 11.9,
+   "tmin": 4.2,
+   "af": 2,
+   "rain": 68.9,
+   "sunHours": 176.8
+  },
+  {
+   "date": "1994-04",
+   "tmax": 14.6,
+   "tmin": 6.8,
+   "af": 0,
+   "rain": 26.1,
+   "sunHours": 161.4
+  },
+  {
+   "date": "1994-05",
+   "tmax": 18.1,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 38.8,
+   "sunHours": 151.4
+  },
+  {
+   "date": "1994-06",
+   "tmax": 22.7,
+   "tmin": 12.6,
+   "af": 0,
+   "rain": 70.5,
+   "sunHours": 223
+  },
+  {
+   "date": "1994-07",
+   "tmax": 19.4,
+   "tmin": 11.6,
+   "af": 0,
+   "rain": 43.7,
+   "sunHours": 165.7
+  },
+  {
+   "date": "1994-08",
+   "tmax": 15.7,
+   "tmin": 8.9,
+   "af": 0,
+   "rain": 114.6,
+   "sunHours": 115.7
+  },
+  {
+   "date": "1994-09",
+   "tmax": 13.8,
+   "tmin": 6.3,
+   "af": 1,
+   "rain": 125.3,
+   "sunHours": 108.2
+  },
+  {
+   "date": "1994-10",
+   "tmax": 12.4,
+   "tmin": 7.6,
+   "af": 1,
+   "rain": 93.1,
+   "sunHours": 55.4
+  },
+  {
+   "date": "1994-11",
+   "tmax": 9,
+   "tmin": 3,
+   "af": 5,
+   "rain": 112.1,
+   "sunHours": 46.3
+  },
+  {
+   "date": "1995-00",
+   "tmax": 7.6,
+   "tmin": 1.3,
+   "af": 9,
+   "rain": 136.7,
+   "sunHours": 55.3
+  },
+  {
+   "date": "1995-01",
+   "tmax": 9.3,
+   "tmin": 2.8,
+   "af": 3,
+   "rain": 97.1,
+   "sunHours": 66.5
+  },
+  {
+   "date": "1995-02",
+   "tmax": 8.9,
+   "tmin": 1.5,
+   "af": 12,
+   "rain": 65.4,
+   "sunHours": 136.1
+  },
+  {
+   "date": "1995-03",
+   "tmax": 13.1,
+   "tmin": 5,
+   "af": 1,
+   "rain": 23.6,
+   "sunHours": 174.3
+  },
+  {
+   "date": "1995-04",
+   "tmax": 16.2,
+   "tmin": 7.1,
+   "af": 0,
+   "rain": 44.5,
+   "sunHours": 198.4
+  },
+  {
+   "date": "1995-05",
+   "tmax": 18.7,
+   "tmin": 10.4,
+   "af": 0,
+   "rain": 27.9,
+   "sunHours": 215.1
+  },
+  {
+   "date": "1995-06",
+   "tmax": 23.8,
+   "tmin": 14.1,
+   "af": 0,
+   "rain": 40.4,
+   "sunHours": 238.5
+  },
+  {
+   "date": "1995-07",
+   "tmax": 24.6,
+   "tmin": 13.8,
+   "af": 0,
+   "rain": 17.7,
+   "sunHours": 283.8
+  },
+  {
+   "date": "1995-08",
+   "tmax": 17.5,
+   "tmin": 9.7,
+   "af": 0,
+   "rain": 86.2,
+   "sunHours": 120.5
+  },
+  {
+   "date": "1995-09",
+   "tmax": 16.4,
+   "tmin": 9.3,
+   "af": 0,
+   "rain": 23.7,
+   "sunHours": 125.2
+  },
+  {
+   "date": "1995-10",
+   "tmax": 10.7,
+   "tmin": 4.8,
+   "af": 3,
+   "rain": 44.8,
+   "sunHours": 78.6
+  },
+  {
+   "date": "1995-11",
+   "tmax": 5,
+   "tmin": -0.1,
+   "af": 15,
+   "rain": 37.2,
+   "sunHours": 49.7
+  },
+  {
+   "date": "1996-00",
+   "tmax": 6.4,
+   "tmin": 2.8,
+   "af": 6,
+   "rain": 15.6,
+   "sunHours": 20.8
+  },
+  {
+   "date": "1996-01",
+   "tmax": 5.9,
+   "tmin": -0.9,
+   "af": 20,
+   "rain": 62.2,
+   "sunHours": 73.9
+  },
+  {
+   "date": "1996-02",
+   "tmax": 7.7,
+   "tmin": 2,
+   "af": 6,
+   "rain": 24,
+   "sunHours": 79.2
+  },
+  {
+   "date": "1996-03",
+   "tmax": 12.9,
+   "tmin": 4.9,
+   "af": 2,
+   "rain": 42.1,
+   "sunHours": 95.4
+  },
+  {
+   "date": "1996-04",
+   "tmax": 13.5,
+   "tmin": 5.2,
+   "af": 1,
+   "rain": 59.5,
+   "sunHours": 174.6
+  },
+  {
+   "date": "1996-05",
+   "tmax": 18.7,
+   "tmin": 9.5,
+   "af": 0,
+   "rain": 47.4,
+   "sunHours": 225.9
+  },
+  {
+   "date": "1996-06",
+   "tmax": 20.3,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 28.7,
+   "sunHours": 203.5
+  },
+  {
+   "date": "1996-07",
+   "tmax": 21.1,
+   "tmin": 12.6,
+   "af": 0,
+   "rain": 88.2,
+   "sunHours": 164.6
+  },
+  {
+   "date": "1996-08",
+   "tmax": 17.4,
+   "tmin": 9.8,
+   "af": 0,
+   "rain": 37.2,
+   "sunHours": 128.4
+  },
+  {
+   "date": "1996-09",
+   "tmax": 14.7,
+   "tmin": 8.3,
+   "af": 0,
+   "rain": 92.6,
+   "sunHours": 91.9
+  },
+  {
+   "date": "1996-10",
+   "tmax": 9.1,
+   "tmin": 2.4,
+   "af": 11,
+   "rain": 133.2,
+   "sunHours": 71
+  },
+  {
+   "date": "1996-11",
+   "tmax": 5.9,
+   "tmin": 0.4,
+   "af": 14,
+   "rain": 46.1,
+   "sunHours": 48.2
+  },
+  {
+   "date": "1997-00",
+   "tmax": 6,
+   "tmin": 0.4,
+   "af": 15,
+   "rain": 8.2,
+   "sunHours": 62.8
+  },
+  {
+   "date": "1997-01",
+   "tmax": 9.9,
+   "tmin": 3.4,
+   "af": 3,
+   "rain": 89.3,
+   "sunHours": 56.1
+  },
+  {
+   "date": "1997-02",
+   "tmax": 12,
+   "tmin": 4.4,
+   "af": 1,
+   "rain": 36.9,
+   "sunHours": 99.6
+  },
+  {
+   "date": "1997-03",
+   "tmax": 12.9,
+   "tmin": 4.9,
+   "af": 4,
+   "rain": 36.4,
+   "sunHours": 122
+  },
+  {
+   "date": "1997-04",
+   "tmax": 16.7,
+   "tmin": 7.1,
+   "af": 0,
+   "rain": 87.4,
+   "sunHours": 226.6
+  },
+  {
+   "date": "1997-05",
+   "tmax": 17.9,
+   "tmin": 10.2,
+   "af": 0,
+   "rain": 112.2,
+   "sunHours": 139.2
+  },
+  {
+   "date": "1997-06",
+   "tmax": 21.1,
+   "tmin": 12.5,
+   "af": 0,
+   "rain": 60.2,
+   "sunHours": 227.2
+  },
+  {
+   "date": "1997-07",
+   "tmax": 23.5,
+   "tmin": 14.1,
+   "af": 0,
+   "rain": 62.9,
+   "sunHours": 192.5
+  },
+  {
+   "date": "1997-08",
+   "tmax": 17.3,
+   "tmin": 10.7,
+   "af": 0,
+   "rain": 43.5,
+   "sunHours": 119
+  },
+  {
+   "date": "1997-09",
+   "tmax": 13.7,
+   "tmin": 6.3,
+   "af": 3,
+   "rain": 58.9,
+   "sunHours": 125.4
+  },
+  {
+   "date": "1997-10",
+   "tmax": 11.1,
+   "tmin": 6.1,
+   "af": 0,
+   "rain": 80.8,
+   "sunHours": 31.5
+  },
+  {
+   "date": "1997-11",
+   "tmax": 8.6,
+   "tmin": 3.2,
+   "af": 5,
+   "rain": 88.4,
+   "sunHours": 32.5
+  },
+  {
+   "date": "1998-00",
+   "tmax": 7.8,
+   "tmin": 2.4,
+   "af": 6,
+   "rain": 79.2,
+   "sunHours": 47
+  },
+  {
+   "date": "1998-01",
+   "tmax": 10.9,
+   "tmin": 4.8,
+   "af": 4,
+   "rain": 15,
+   "sunHours": 67.7
+  },
+  {
+   "date": "1998-02",
+   "tmax": 11.2,
+   "tmin": 4.8,
+   "af": 2,
+   "rain": 106.5,
+   "sunHours": 70.1
+  },
+  {
+   "date": "1998-03",
+   "tmax": 11.2,
+   "tmin": 4.6,
+   "af": 4,
+   "rain": 93.8,
+   "sunHours": 117.5
+  },
+  {
+   "date": "1998-04",
+   "tmax": 17.6,
+   "tmin": 9.1,
+   "af": 0,
+   "rain": 26.2,
+   "sunHours": 186.3
+  },
+  {
+   "date": "1998-05",
+   "tmax": 17.3,
+   "tmin": 10.7,
+   "af": 0,
+   "rain": 126.1,
+   "sunHours": 114.9
+  },
+  {
+   "date": "1998-06",
+   "tmax": 18.2,
+   "tmin": 12,
+   "af": 0,
+   "rain": 74.8,
+   "sunHours": 127.6
+  },
+  {
+   "date": "1998-07",
+   "tmax": 19.5,
+   "tmin": 12,
+   "af": 0,
+   "rain": 58.6,
+   "sunHours": 164.4
+  },
+  {
+   "date": "1998-08",
+   "tmax": 18.2,
+   "tmin": 11.3,
+   "af": 0,
+   "rain": 44,
+   "sunHours": 132.8
+  },
+  {
+   "date": "1998-09",
+   "tmax": 13.4,
+   "tmin": 7.6,
+   "af": 0,
+   "rain": 171.4,
+   "sunHours": 77.5
+  },
+  {
+   "date": "1998-10",
+   "tmax": 9,
+   "tmin": 3.5,
+   "af": 4,
+   "rain": 71.4,
+   "sunHours": 55.9
+  },
+  {
+   "date": "1998-11",
+   "tmax": 8.4,
+   "tmin": 1.9,
+   "af": 9,
+   "rain": 50.4,
+   "sunHours": 45.6
+  },
+  {
+   "date": "1999-00",
+   "tmax": 8.3,
+   "tmin": 2.4,
+   "af": 6,
+   "rain": 96.4,
+   "sunHours": 58.4
+  },
+  {
+   "date": "1999-01",
+   "tmax": 8.1,
+   "tmin": 2.6,
+   "af": 6,
+   "rain": 60.8,
+   "sunHours": 69.1
+  },
+  {
+   "date": "1999-02",
+   "tmax": 10.4,
+   "tmin": 4.5,
+   "af": 1,
+   "rain": 59.9,
+   "sunHours": 94.5
+  },
+  {
+   "date": "1999-03",
+   "tmax": 13.4,
+   "tmin": 6.2,
+   "af": 4,
+   "rain": 63,
+   "sunHours": 139.6
+  },
+  {
+   "date": "1999-04",
+   "tmax": 17,
+   "tmin": 9.5,
+   "af": 0,
+   "rain": 55.2,
+   "sunHours": 140.3
+  },
+  {
+   "date": "1999-05",
+   "tmax": 17.8,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 67.4,
+   "sunHours": 195.4
+  },
+  {
+   "date": "1999-06",
+   "tmax": 22.4,
+   "tmin": 13.3,
+   "af": 0,
+   "rain": 10.4,
+   "sunHours": 218.2
+  },
+  {
+   "date": "1999-07",
+   "tmax": 20.3,
+   "tmin": 12.7,
+   "af": 0,
+   "rain": 68.4,
+   "sunHours": 141
+  },
+  {
+   "date": "1999-08",
+   "tmax": 19.8,
+   "tmin": 11.9,
+   "af": 0,
+   "rain": 110.6,
+   "sunHours": 164.6
+  },
+  {
+   "date": "1999-09",
+   "tmax": 14.4,
+   "tmin": 7.7,
+   "af": 0,
+   "rain": 71.2,
+   "sunHours": 123.5
+  },
+  {
+   "date": "1999-10",
+   "tmax": 10.6,
+   "tmin": 4.5,
+   "af": 4,
+   "rain": 49.6,
+   "sunHours": 67.9
+  },
+  {
+   "date": "1999-11",
+   "tmax": 7.6,
+   "tmin": 1.8,
+   "af": 8,
+   "rain": 144.8,
+   "sunHours": 47.3
+  },
+  {
+   "date": "2000-00",
+   "tmax": 7.8,
+   "tmin": 2.3,
+   "af": 6,
+   "rain": 52.2,
+   "sunHours": 30.8
+  },
+  {
+   "date": "2000-01",
+   "tmax": 9.4,
+   "tmin": 3,
+   "af": 4,
+   "rain": 82.4,
+   "sunHours": 79.7
+  },
+  {
+   "date": "2000-02",
+   "tmax": 10.8,
+   "tmin": 4.2,
+   "af": 3,
+   "rain": 39,
+   "sunHours": 100.9
+  },
+  {
+   "date": "2000-03",
+   "tmax": 11.9,
+   "tmin": 4.6,
+   "af": 1,
+   "rain": 66.6,
+   "sunHours": 140.2
+  },
+  {
+   "date": "2000-04",
+   "tmax": 17.1,
+   "tmin": 8,
+   "af": 0,
+   "rain": 85.8,
+   "sunHours": 223
+  },
+  {
+   "date": "2000-05",
+   "tmax": 18.8,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": 84.4,
+   "sunHours": 140.6
+  },
+  {
+   "date": "2000-06",
+   "tmax": 19.4,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": 68.4,
+   "sunHours": 156.9
+  },
+  {
+   "date": "2000-07",
+   "tmax": 20.5,
+   "tmin": 12.7,
+   "af": 0,
+   "rain": 70,
+   "sunHours": 167.3
+  },
+  {
+   "date": "2000-08",
+   "tmax": 18.3,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": 115.8,
+   "sunHours": 114.5
+  },
+  {
+   "date": "2000-09",
+   "tmax": 13.3,
+   "tmin": 7.2,
+   "af": 0,
+   "rain": 193.6,
+   "sunHours": 70.7
+  },
+  {
+   "date": "2000-10",
+   "tmax": 9.5,
+   "tmin": 4.4,
+   "af": 0,
+   "rain": 181,
+   "sunHours": 33.9
+  },
+  {
+   "date": "2000-11",
+   "tmax": 7.7,
+   "tmin": 2.9,
+   "af": 8,
+   "rain": 71.6,
+   "sunHours": 46.5
+  },
+  {
+   "date": "2001-00",
+   "tmax": 5.9,
+   "tmin": 0.8,
+   "af": 9,
+   "rain": 51.4,
+   "sunHours": 72.1
+  },
+  {
+   "date": "2001-01",
+   "tmax": 7.3,
+   "tmin": 0.8,
+   "af": 14,
+   "rain": 85,
+   "sunHours": 69.5
+  },
+  {
+   "date": "2001-02",
+   "tmax": 8.5,
+   "tmin": 2.1,
+   "af": 8,
+   "rain": 33,
+   "sunHours": 102.8
+  },
+  {
+   "date": "2001-03",
+   "tmax": 11,
+   "tmin": 3.9,
+   "af": 1,
+   "rain": 107,
+   "sunHours": 102.7
+  },
+  {
+   "date": "2001-04",
+   "tmax": 17.5,
+   "tmin": 8.4,
+   "af": 0,
+   "rain": 75.2,
+   "sunHours": 202.1
+  },
+  {
+   "date": "2001-05",
+   "tmax": 18.1,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 28.8,
+   "sunHours": 148.4
+  },
+  {
+   "date": "2001-06",
+   "tmax": 21.3,
+   "tmin": 12.9,
+   "af": 0,
+   "rain": 27.6,
+   "sunHours": 185.9
+  },
+  {
+   "date": "2001-07",
+   "tmax": 20.6,
+   "tmin": 12.6,
+   "af": 0,
+   "rain": 108.2,
+   "sunHours": 171
+  },
+  {
+   "date": "2001-08",
+   "tmax": 16.4,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 83.8,
+   "sunHours": 94.6
+  },
+  {
+   "date": "2001-09",
+   "tmax": 16.5,
+   "tmin": 10.3,
+   "af": 0,
+   "rain": 101.2,
+   "sunHours": 119
+  },
+  {
+   "date": "2001-10",
+   "tmax": 10.8,
+   "tmin": 4.5,
+   "af": 3,
+   "rain": 61.6,
+   "sunHours": 41.4
+  },
+  {
+   "date": "2001-11",
+   "tmax": 6.9,
+   "tmin": -0.3,
+   "af": 18,
+   "rain": 50.8,
+   "sunHours": 74.9
+  },
+  {
+   "date": "2002-00",
+   "tmax": 8.7,
+   "tmin": 2.3,
+   "af": 6,
+   "rain": 61.6,
+   "sunHours": 40.9
+  },
+  {
+   "date": "2002-01",
+   "tmax": 10.1,
+   "tmin": 3.9,
+   "af": 2,
+   "rain": 142.2,
+   "sunHours": 75
+  },
+  {
+   "date": "2002-02",
+   "tmax": 11.3,
+   "tmin": 4,
+   "af": 3,
+   "rain": 35,
+   "sunHours": 122.4
+  },
+  {
+   "date": "2002-03",
+   "tmax": 13.9,
+   "tmin": 5.2,
+   "af": 1,
+   "rain": 52.2,
+   "sunHours": 184.8
+  },
+  {
+   "date": "2002-04",
+   "tmax": 15.8,
+   "tmin": 8.6,
+   "af": 0,
+   "rain": 103.6,
+   "sunHours": 171.3
+  },
+  {
+   "date": "2002-05",
+   "tmax": 18.3,
+   "tmin": 10.6,
+   "af": 0,
+   "rain": 48.6,
+   "sunHours": 167.4
+  },
+  {
+   "date": "2002-06",
+   "tmax": 19.5,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": 108.4,
+   "sunHours": 147.3
+  },
+  {
+   "date": "2002-07",
+   "tmax": 20.5,
+   "tmin": 13.2,
+   "af": 0,
+   "rain": 106.8,
+   "sunHours": 132.4
+  },
+  {
+   "date": "2002-08",
+   "tmax": 18.5,
+   "tmin": 10.8,
+   "af": 0,
+   "rain": 38,
+   "sunHours": 168
+  },
+  {
+   "date": "2002-09",
+   "tmax": 13.5,
+   "tmin": 6.5,
+   "af": 1,
+   "rain": 111.1,
+   "sunHours": 92.3
+  },
+  {
+   "date": "2002-10",
+   "tmax": 11.1,
+   "tmin": 6.1,
+   "af": 0,
+   "rain": 108.6,
+   "sunHours": 49.7
+  },
+  {
+   "date": "2002-11",
+   "tmax": 7.5,
+   "tmin": 3.9,
+   "af": 3,
+   "rain": 109.6,
+   "sunHours": 50.5
+  },
+  {
+   "date": "2003-00",
+   "tmax": 7.6,
+   "tmin": 2.1,
+   "af": 8,
+   "rain": 60,
+   "sunHours": 73.7
+  },
+  {
+   "date": "2003-01",
+   "tmax": 7.8,
+   "tmin": 0.8,
+   "af": 12,
+   "rain": 41.3,
+   "sunHours": 97.6
+  },
+  {
+   "date": "2003-02",
+   "tmax": 12.6,
+   "tmin": 3.3,
+   "af": 2,
+   "rain": 39,
+   "sunHours": 169.5
+  },
+  {
+   "date": "2003-03",
+   "tmax": 14.8,
+   "tmin": 5.7,
+   "af": 3,
+   "rain": 57.4,
+   "sunHours": 192.9
+  },
+  {
+   "date": "2003-04",
+   "tmax": 16.1,
+   "tmin": 8.4,
+   "af": 0,
+   "rain": 90.6,
+   "sunHours": 183.4
+  },
+  {
+   "date": "2003-05",
+   "tmax": 20.5,
+   "tmin": 11.5,
+   "af": 0,
+   "rain": 67.8,
+   "sunHours": 206.7
+  },
+  {
+   "date": "2003-06",
+   "tmax": 21.4,
+   "tmin": 13.6,
+   "af": 0,
+   "rain": 69.4,
+   "sunHours": 157.2
+  },
+  {
+   "date": "2003-07",
+   "tmax": 22.1,
+   "tmin": 13.6,
+   "af": 0,
+   "rain": 11.4,
+   "sunHours": 191
+  },
+  {
+   "date": "2003-08",
+   "tmax": 18.9,
+   "tmin": 9.8,
+   "af": 0,
+   "rain": 44.6,
+   "sunHours": 145.1
+  },
+  {
+   "date": "2003-09",
+   "tmax": 12.9,
+   "tmin": 5.6,
+   "af": 3,
+   "rain": 43.2,
+   "sunHours": 127.3
+  },
+  {
+   "date": "2003-10",
+   "tmax": 11,
+   "tmin": 4.9,
+   "af": 3,
+   "rain": 61.6,
+   "sunHours": 64.4
+  },
+  {
+   "date": "2003-11",
+   "tmax": 7.6,
+   "tmin": 1.6,
+   "af": 10,
+   "rain": 82.4,
+   "sunHours": 51.7
+  },
+  {
+   "date": "2004-00",
+   "tmax": 8,
+   "tmin": 2.4,
+   "af": 8,
+   "rain": 112,
+   "sunHours": 34.1
+  },
+  {
+   "date": "2004-01",
+   "tmax": 8.5,
+   "tmin": 2.5,
+   "af": 10,
+   "rain": 48.4,
+   "sunHours": 110
+  },
+  {
+   "date": "2004-02",
+   "tmax": 10.3,
+   "tmin": 3.4,
+   "af": 3,
+   "rain": 30.2,
+   "sunHours": 106.7
+  },
+  {
+   "date": "2004-03",
+   "tmax": 13.3,
+   "tmin": 6.5,
+   "af": 1,
+   "rain": 83.4,
+   "sunHours": 108.6
+  },
+  {
+   "date": "2004-04",
+   "tmax": 16.8,
+   "tmin": 8,
+   "af": 0,
+   "rain": 46,
+   "sunHours": 196.3
+  },
+  {
+   "date": "2004-05",
+   "tmax": 19.1,
+   "tmin": 11.2,
+   "af": 0,
+   "rain": 68,
+   "sunHours": 169.5
+  },
+  {
+   "date": "2004-06",
+   "tmax": 19.2,
+   "tmin": 11.7,
+   "af": 0,
+   "rain": 64,
+   "sunHours": 150.4
+  },
+  {
+   "date": "2004-07",
+   "tmax": 21.3,
+   "tmin": 14,
+   "af": 0,
+   "rain": 185.4,
+   "sunHours": 157.8
+  },
+  {
+   "date": "2004-08",
+   "tmax": 18.3,
+   "tmin": 11.1,
+   "af": 0,
+   "rain": 110.2,
+   "sunHours": 148.8
+  },
+  {
+   "date": "2004-09",
+   "tmax": 13.6,
+   "tmin": 7.5,
+   "af": 0,
+   "rain": 95.2,
+   "sunHours": 84.5
+  }
+ ]
+}

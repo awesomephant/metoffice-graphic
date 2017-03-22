@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse; 
+    font-size: .9rem;
+}
+thead {
+    background: lighten(lightgray, 15);
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid lighten(black, 20);
+}
+
+.type {
+    text-transform: capitalize;
+     [data-type='heat'] &{
+        background: #FF7D63;
+    }
+    [data-type='cold'] &{
+        background: #8CCBFF;
+    }
+    [data-type='flood'] &{
+        background: $yellow;
+    }
+}
+
+td {
+    padding: .7rem;
+    padding-right: 2rem;
+    
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+}

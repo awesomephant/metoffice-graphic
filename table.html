@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <table id="table">
+        <thead>
+            <tr>
+            <td>Name</td>
+            <td>Type</td>
+            <td>Date</td>
+            <td>Deaths</td>
+            <td>Source</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="./bower_components/moment/min/moment.min.js"></script>
+    <script>
+        var table = d3.select("#table tbody");
+
+        var parseTime = d3.timeParse("%Y-%m");
+        d3.json("./data/significantEvents.json", function (raw) {
+            var data = raw.events;
+            console.log(data)
+            data.forEach(function (d) {
+                d.startDate = moment(d.startDate, 'YYYY-MM');
+                d.endDate = moment(d.endDate, 'YYYY-MM');
+            });
+
+            var rows = table.selectAll('tr')
+                .data(data)
+                .enter().append('tr')
+                .attr('data-type', function (d) { return d.type })
+
+            rows.append('td').text(function (d) { return d.title })
+            rows.append('td').text(function (d) { return d.type }).attr('class', 'type')
+            rows.append('td').text(function (d) {
+                if (d.startDate._i !== d.endDate._i) {
+                    return (d.startDate.format('MMM YYYY') + ' – ' + d.endDate.format('MMM YYYY'))
+                } else {
+                    return (d.startDate.format('MMM YYYY'))
+                }
+            })
+
+            //            rows.append('td').append('p').text(function(d){return d.longDescription})
+            rows.append('td').text(function (d) { return d.deathCount })
+
+            rows.append('td').append('a')
+                .attr('href', function (d) { return d.sources[0].url })
+                .text(function (d) { return d.sources[0].title })
+
+
+        });
+    </script>
+</body>
+
+</html>

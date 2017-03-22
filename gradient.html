@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class='map-tooltip' id="tooltip">
+        <date class='tooltip-title' id="js-date"></date>
+        <ul class='tooltip-data'>
+            <li class='tooltip-data-item'>
+                <span class="data-item-title">Maximum Mean</span>
+                <span class="data-item-value" id="js-data-tmax"></span>
+            </li>
+            <li class='tooltip-data-item'>
+                <span class="data-item-title">Minimum Mean</span>
+                <span class="data-item-value" id="js-data-tmin"></span>
+            </li>
+        </ul>
+    </div>
+    <script src="./bower_components/moment/min/moment.min.js"></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        var getArrMean = function (arr) {
+            var sum = arr.reduce((a, b) => a + b, 0);
+            return sum / (arr.length)
+        }
+        var margin = { top: 30, right: 20, bottom: 30, left: 30 },
+            width = 350 - margin.left - margin.right,
+            height = 120 - margin.top - margin.bottom;
+
+        var parseTime = d3.timeParse("%Y-%m");
+
+        var x = d3.scaleTime()
+            .rangeRound([0, width]);
+
+        var y = d3.scaleLinear()
+            .rangeRound([height, 0]);
+
+        var colors = ["#6CC0F0", "#FFD240"];
+        var color = d3.scaleLinear()
+            .range(colors);
+
+        var drawGradient = function (file) {
+            d3.json(file, function (raw) {
+                var svg = d3.select('body').append('svg');
+                svg.attr('width', 350)
+                svg.attr('height', 120)
+                var g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                var data = raw.data;
+                var meanData = raw.yearlyMeans;
+                var index = 0;
+                data.forEach(function (d) {
+                    d.date = parseTime(d.date);
+                });
+                meanData.forEach(function (d) {
+                    d.date = parseTime(d.date);
+                });
+                var dateRange = d3.extent(meanData, function (d) { return d.date; });
+                x.domain(dateRange);
+                //y.domain([8, 13]);
+                y.domain([-8, 25]);
+                color.domain([8, 13])
+
+                var means = g.append('g')
+                    .attr('class', 'means')
+
+                var lines = means.selectAll('rect')
+                    .data(meanData)
+                    .enter().append('rect')
+                    .attr("width", width / meanData.length + .2)
+                    .attr("height", height)
+                    .attr("x", function (d) { return x(d.date) })
+                    .attr("y", 0)
+                    .attr("fill", function (d) { return color(d.value) })
+
+                lines.filter(function (d) { return d.value == null; }).remove()
+
+
+                g.append('text')
+                    .text(raw.name)
+                    .attr('x', -10)
+                    .attr('y', -10)
+                    .attr('class', 'gradient-station')
+
+                var range = x.range();
+
+                g.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x)
+                        .tickFormat(d3.timeFormat('%Y'))
+                        .tickValues(dateRange))
+                    .select(".domain")
+                    .remove() //remove line
+
+                g.selectAll('.tick line').remove()
+            });
+        }
+
+        var files = [
+            'aberporth',
+            'armagh',
+            'bradford',
+            'braemar',
+            'camborne',
+            'chivenor',
+            'southampton',
+            'oxford',
+            'durham',
+            'eastbourne',
+            'heathrowairport',
+            'hurn',
+            'lerwick',
+            'leuchars',
+            'lowestoft',
+            'manston',
+            'nairn',
+            'newtonrigg',
+            'paisley',
+            'ringway',
+            'shawbury',
+            'sheffield',
+            'tiree',
+            'valley',
+            'waddington',
+            'whitby',
+        ]
+        for (var i = 0; i < files.length; i++) {
+            var path = './data/json/' + files[i] + '.json';
+            console.log('loading' + path)
+            drawGradient(path);
+        }
+    </script>
+</body>
+
+</html>

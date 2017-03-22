@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <svg width="3500" height="600"></svg>
+    <div class='map-tooltip' id="tooltip">
+        <date class='tooltip-title' id="js-date"></date>
+        <ul class='tooltip-data'>
+            <li class='tooltip-data-item'>
+                <span class="data-item-title">Maximum Mean</span>
+                <span class="data-item-value" id="js-data-tmax"></span>
+            </li>
+            <li class='tooltip-data-item'>
+                <span class="data-item-title">Minimum Mean</span>
+                <span class="data-item-value" id="js-data-tmin"></span>
+            </li>
+        </ul>
+    </div>
+    <script src="./bower_components/moment/min/moment.min.js"></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script>
+        document.addEventListener('mousemove', function (e) {
+            var tip = document.getElementById('tooltip')
+            var style = 'transform: translate(' + (e.clientX - (tip.offsetWidth / 2)) + 'px,' + (e.clientY - 100) + 'px);'
+            tip.setAttribute('style', style)
+        })
+        var getArrMean = function (arr) {
+            var sum = arr.reduce((a, b) => a + b, 0);
+            return sum / (arr.length)
+        }
+        var svg = d3.select("svg"),
+            margin = { top: 20, right: 20, bottom: 30, left: 30 },
+            width = +svg.attr("width") - margin.left - margin.right,
+            height = +svg.attr("height") - margin.top - margin.bottom,
+            g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        var parseTime = d3.timeParse("%Y-%m");
+
+        var x = d3.scaleTime()
+            .rangeRound([0, width]);
+
+        var y = d3.scaleLinear()
+            .rangeRound([height, 0]);
+
+        d3.json("./data/json/oxford.json", function (raw) {
+            var data = raw.data;
+            var meanData = raw.yearlyMeans;
+            var index = 0;
+            data.forEach(function (d) {
+                d.date = parseTime(d.date);
+            });
+            meanData.forEach(function (d) {
+                d.date = parseTime(d.date);
+            });
+            x.domain(d3.extent(data, function (d) { return d.date; }));
+            //y.domain([8, 13]);
+            y.domain([-8, 25]);
+
+            var lines = g.selectAll('line')
+                .data(data)
+                .enter().append('line')
+                .attr('x1', function (d) { return x(d.date) })
+                .attr('y1', function (d) { return y(d.tmin) })
+                .attr('x2', function (d) { return x(d.date) })
+                .attr('y2', function (d) { return y(d.tmax) })
+                .attr('stroke-width', 2)
+                .attr('stroke', 'lightgray')
+                .on('mouseover', function (d) {
+                    var m = moment(d.date);
+                    d3.select('body').attr('data-active', 'true')
+                    d3.select(this).attr('data-hover', 'true')
+                    d3.select('#tooltip #js-date').text(m.format('MMMM YYYY'))
+                    d3.select('#tooltip #js-data-tmin').text(d.tmin + '°C')
+                    d3.select('#tooltip #js-data-tmax').text(d.tmax + '°C')
+                })
+                .on('mouseout', function () {
+                    d3.select(this).attr('data-hover', 'false')
+                    //  d3.select('body').attr('data-active', 'false')
+                })
+
+            var means = g.append('g');
+
+            var line = d3.line()
+                .x(function (d) { return x(d.date); })
+                .y(function (d) { return y(d.value); });
+
+            means.append('path')
+                .datum(meanData)
+                .attr("fill", "none")
+                .attr("stroke", "black")
+                .attr("stroke-linejoin", "round")
+                .attr("stroke-linecap", "round")
+                .attr("stroke-width", 1.5)
+                .attr("d", line);
+
+            var rain = g.append('g').attr('class', 'rain').selectAll('circle')
+                .data(data)
+                .enter().append('rect')
+                .attr('x', function (d) { return x(d.date) })
+                .attr('y', function (d) { return height - d.rain })
+                .attr('height', function (d) { return d.rain })
+                .attr('width', 0)
+                .attr('fill', 'cornflowerblue')
+
+            lines.filter(function (d) { return d.tmax == null; }).remove()
+            lines.filter(function (d) { return d.tmin == null; }).remove()
+
+
+            g.append('text')
+                .text(raw.name)
+                .attr('x', 20)
+                .attr('y', 10)
+                .attr('class', 'headline')
+
+            g.append("g")
+                .call(d3.axisLeft(y))
+                .select(".domain")
+                .remove();
+
+            g.append("g")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x)
+                    //                .ticks(80))
+                    .tickArguments([d3.timeYear.every(10)]))
+                .select(".domain")
+            //.remove(); //remove line
+        });
+    </script>
+</body>
+
+</html>
